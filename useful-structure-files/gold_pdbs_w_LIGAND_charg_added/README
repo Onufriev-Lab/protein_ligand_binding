@@ -1,0 +1,5 @@
+This folder contains pdb files for complexes with ligands that are charged.  It contains files that are not annotated for that charge *_LIGAND.pdb, and files that are annotated for that charge *_LIGAND_charge_added.pdb.
+
+The annotation is as follows at the top of the file where "X" is the charge.
+
+REMARK LIGAND_NET_CHARGE X END_LIGAND_INFO

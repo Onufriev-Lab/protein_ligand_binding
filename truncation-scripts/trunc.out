@@ -4,37 +4,40 @@ CPPTRAJ: Trajectory Analysis. V6.18.1 (AmberTools)
      | \/ | \/ | \/ | 
     _|_/\_|_/\_|_/\_|_
 
-| Date/time: 05/06/25 12:50:57
-| Available memory: 5.626 GB
+| Date/time: 05/06/25 15:14:32
+| Available memory: 5.496 GB
 
 INPUT: Reading input from 'trunc.in'
-  [parm 5dit.pdb]
-	Reading '5dit.pdb' as PDB File
+  [parm 2oxd.pdb]
+	Reading '2oxd.pdb' as PDB File
 	Reading bond info from CONECT records.
 	Not reading bond info from LINK records.
 	Determining bond info from distances.
+Warning: Bond length not found for BR - BR, using default= 1.600000
+Warning: Bond length not found for H - BR, using default= 1.600000
+Warning: Bond length not found for CL - BR, using default= 1.600000
 Warning: Bond length not found for O - CL, using default= 1.600000
 Warning: Bond length not found for CL - CL, using default= 1.600000
 Warning: Bond length not found for CL - NA, using default= 1.600000
 Warning: Bond length not found for NA - NA, using default= 1.600000
-Warning: Determining bond length parameters from element types for '5dit.pdb'.
-  [reference 5dit.pdb]
-	Reading '5dit.pdb' as PDB
-	Read CRYST1 info from PDB: a=61.767 b=61.767 c=61.767 alpha=109.47 beta=109.47 gamma=109.47
+Warning: Determining bond length parameters from element types for '2oxd.pdb'.
+  [reference 2oxd.pdb]
+	Reading '2oxd.pdb' as PDB
+	Read CRYST1 info from PDB: a=84.876 b=84.876 c=84.876 alpha=109.47 beta=109.47 gamma=109.47
 Warning: Low precision truncated octahedron angles detected (109.47 vs 109.471).
 Warning:   If desired, the 'box' command can be used during processing
 Warning:   to set higher-precision angles.
-	Setting active reference for distance-based masks: '5dit.pdb'
-  [trajin 5dit.pdb]
-	Reading '5dit.pdb' as PDB
-	Read CRYST1 info from PDB: a=61.767 b=61.767 c=61.767 alpha=109.47 beta=109.47 gamma=109.47
+	Setting active reference for distance-based masks: '2oxd.pdb'
+  [trajin 2oxd.pdb]
+	Reading '2oxd.pdb' as PDB
+	Read CRYST1 info from PDB: a=84.876 b=84.876 c=84.876 alpha=109.47 beta=109.47 gamma=109.47
 Warning: Low precision truncated octahedron angles detected (109.47 vs 109.471).
 Warning:   If desired, the 'box' command can be used during processing
 Warning:   to set higher-precision angles.
 Warning: Trajectory box type is 'Truncated octahedron' but topology box type is 'None'.
 Warning: Setting topology box information from trajectory.
-  [strip !(:5B8<:8)]
-    STRIP: Stripping atoms in mask [!(:5B8<:8)]
+  [strip !(:K32<:35)]
+    STRIP: Stripping atoms in mask [!(:K32<:35)]
   [strip :WAT,HOH]
     STRIP: Stripping atoms in mask [:WAT,HOH]
   [strip :Na+]
@@ -47,59 +50,58 @@ Warning: Setting topology box information from trajectory.
 ---------- RUN BEGIN -------------------------------------------------
 
 PARAMETER FILES (1 total):
- 0: 5dit.pdb, 15067 atoms, 4470 res, box: Truncated octahedron, 4343 mol, 4318 solvent
+ 0: 2oxd.pdb, 40393 atoms, 12023 res, box: Truncated octahedron, 11699 mol, 11630 solvent
 
 INPUT TRAJECTORIES (1 total):
- 0: '5dit.pdb' is a PDB file, Parm 5dit.pdb (Truncated octahedron box) (reading 1 of 1)
+ 0: '2oxd.pdb' is a PDB file, Parm 2oxd.pdb (Truncated octahedron box) (reading 1 of 1)
   Coordinate processing will occur on 1 frames.
 
 REFERENCE FRAMES (1 total):
-    0: 5dit.pdb:1
-	Active reference frame for distance-based masks is '5dit.pdb:1'
+    0: 2oxd.pdb:1
+	Active reference frame for distance-based masks is '2oxd.pdb:1'
 
 OUTPUT TRAJECTORIES (1 total):
   'trunc.pdb' (1 frames) is a PDB file
 
 BEGIN TRAJECTORY PROCESSING:
 .....................................................
-ACTION SETUP FOR PARM '5dit.pdb' (4 actions):
-  0: [strip !(:5B8<:8)]
-	Stripping 13705 atoms.
-	Stripped topology: 1362 atoms, 181 res, box: Truncated octahedron, 139 mol, 123 solvent
+ACTION SETUP FOR PARM '2oxd.pdb' (4 actions):
+  0: [strip !(:K32<:35)]
+	Stripping 21121 atoms.
+	Stripped topology: 19272 atoms, 5010 res, box: Truncated octahedron, 4706 mol, 4662 solvent
   1: [strip :WAT,HOH]
-	Stripping 369 atoms.
-	Stripped topology: 993 atoms, 58 res, box: Truncated octahedron, 16 mol
+	Stripping 13986 atoms.
+	Stripped topology: 5286 atoms, 348 res, box: Truncated octahedron, 44 mol
   2: [strip :Na+]
-	Stripping 0 atoms.
-Warning: No atoms to strip. Skipping.
-Warning: Setup incomplete for [strip]: Skipping
+	Stripping 17 atoms.
+	Stripped topology: 5269 atoms, 331 res, box: Truncated octahedron, 27 mol
   3: [strip :Cl-]
-	Stripping 2 atoms.
-	Stripped topology: 991 atoms, 56 res, box: Truncated octahedron, 14 mol
+	Stripping 18 atoms.
+	Stripped topology: 5251 atoms, 313 res, box: Truncated octahedron, 9 mol
 Warning: No PDB space group specified.
 .....................................................
 ACTIVE OUTPUT TRAJECTORIES (1):
   trunc.pdb (coordinates, box)
------ 5dit.pdb (1-1, 1) -----
+----- 2oxd.pdb (1-1, 1) -----
 100% Complete.
 
 Read 1 frames and processed 1 frames.
-TIME: Avg. throughput= 34.7379 frames / second.
+TIME: Avg. throughput= 24.6208 frames / second.
 
 ACTION OUTPUT:
 TIME: Analyses took 0.0000 seconds.
 
 RUN TIMING:
-TIME:		Init               : 0.0000 s (  0.04%)
-TIME:		Trajectory Process : 0.0288 s ( 97.94%)
+TIME:		Init               : 0.0000 s (  0.06%)
+TIME:		Trajectory Process : 0.0406 s ( 97.17%)
 TIME:		Action Post        : 0.0000 s (  0.00%)
 TIME:		Analysis           : 0.0000 s (  0.00%)
 TIME:		Data File Write    : 0.0000 s (  0.00%)
-TIME:		Other              : 0.0006 s (  0.02%)
-TIME:	Run Total 0.0294 s
+TIME:		Other              : 0.0012 s (  0.03%)
+TIME:	Run Total 0.0418 s
 ---------- RUN END ---------------------------------------------------
   [quit]
-TIME: Total execution time: 0.0825 seconds.
+TIME: Total execution time: 0.1655 seconds.
 --------------------------------------------------------------------------------
 To cite CPPTRAJ use:
 Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for

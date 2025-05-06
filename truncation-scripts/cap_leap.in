@@ -1,0 +1,6 @@
+source leaprc.protein.ff19SB
+mol = loadpdb "/home/johann/protein_ligand_binding/truncation-scripts/3nq9_trunc.pdb"
+set mol head ACE
+set mol tail NME
+savepdb mol "/home/johann/protein_ligand_binding/truncation-scripts/3nq9_trunc_capped.pdb"
+quit

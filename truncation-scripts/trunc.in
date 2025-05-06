@@ -1,0 +1,11 @@
+parm 5dit.pdb
+reference 5dit.pdb
+trajin 5dit.pdb
+strip !(:5B8<:8)
+#strip :5B8
+strip :WAT,HOH
+strip :Na+
+strip :Cl-
+trajout trunc.pdb
+run
+quit

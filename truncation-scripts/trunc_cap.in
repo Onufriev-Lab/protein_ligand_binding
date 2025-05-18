@@ -1,7 +1,7 @@
-parm 2oxd.pdb
-reference 2oxd.pdb
-trajin 2oxd.pdb
-strip !(:10000,247,250,265,271@C,O|:246,249,264,268,327@N,H|:1-245,248,251-263,266-267,272-326|:K32)
+parm 3wz8.pdb
+reference 3wz8.pdb
+trajin 3wz8.pdb
+strip !(:9,32,41,76,112,193,216,279,296,330@C,O|:19,39,43,85,126,195,227,281,308,332@N,H|:10-18,33-38,42,77-84,113-125,194,217-226,280,297-307,331|:IXV)
 strip :WAT,HOH
 strip :Na+
 strip :Cl-

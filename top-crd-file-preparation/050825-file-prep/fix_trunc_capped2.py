@@ -37,4 +37,4 @@ def clean_pdb(input_pdb, output_pdb):
         outfile.writelines(lines)
 
 if __name__ == "__main__":
-    clean_pdb('3zw8-7-trunc_cap.pdb', '3zw8-7-trunc_cap_cleaned.pdb')
+    clean_pdb('6dpz-7-trunc_cap.pdb', '6dpz-7-trunc_cap_cleaned.pdb')

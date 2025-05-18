@@ -1,8 +1,8 @@
-parm 2oxd.pdb
-reference 2oxd.pdb
-trajin 2oxd.pdb
-strip !(:K32<:35)
-#strip :K32
+parm 3wz8.pdb
+reference 3wz8.pdb
+trajin 3wz8.pdb
+strip !(:IXV<:7)
+#strip :IXV
 strip :WAT,HOH
 strip :Na+
 strip :Cl-

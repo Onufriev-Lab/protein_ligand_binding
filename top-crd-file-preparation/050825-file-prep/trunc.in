@@ -1,0 +1,11 @@
+parm 6dpz.pdb
+reference 6dpz.pdb
+trajin 6dpz.pdb
+strip !(:H7D<:7)
+#strip :H7D
+strip :WAT,HOH
+strip :Na+
+strip :Cl-
+trajout trunc.pdb
+run
+quit

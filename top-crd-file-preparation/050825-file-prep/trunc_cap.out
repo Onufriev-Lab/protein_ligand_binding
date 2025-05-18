@@ -4,12 +4,12 @@ CPPTRAJ: Trajectory Analysis. V6.18.1 (AmberTools)
      | \/ | \/ | \/ | 
     _|_/\_|_/\_|_/\_|_
 
-| Date/time: 05/07/25 14:02:49
+| Date/time: 05/08/25 13:02:19
 | Available memory: 5.838 GB
 
 INPUT: Reading input from 'trunc_cap.in'
-  [parm 3wz8.pdb]
-	Reading '3wz8.pdb' as PDB File
+  [parm 6dpz.pdb]
+	Reading '6dpz.pdb' as PDB File
 	Reading bond info from CONECT records.
 	Not reading bond info from LINK records.
 	Determining bond info from distances.
@@ -17,24 +17,24 @@ Warning: Bond length not found for O - CL, using default= 1.600000
 Warning: Bond length not found for CL - CL, using default= 1.600000
 Warning: Bond length not found for CL - NA, using default= 1.600000
 Warning: Bond length not found for NA - NA, using default= 1.600000
-Warning: Determining bond length parameters from element types for '3wz8.pdb'.
-  [reference 3wz8.pdb]
-	Reading '3wz8.pdb' as PDB
-	Read CRYST1 info from PDB: a=85.649 b=85.649 c=85.649 alpha=109.47 beta=109.47 gamma=109.47
+Warning: Determining bond length parameters from element types for '6dpz.pdb'.
+  [reference 6dpz.pdb]
+	Reading '6dpz.pdb' as PDB
+	Read CRYST1 info from PDB: a=88.054 b=88.054 c=88.054 alpha=109.47 beta=109.47 gamma=109.47
 Warning: Low precision truncated octahedron angles detected (109.47 vs 109.471).
 Warning:   If desired, the 'box' command can be used during processing
 Warning:   to set higher-precision angles.
-	Setting active reference for distance-based masks: '3wz8.pdb'
-  [trajin 3wz8.pdb]
-	Reading '3wz8.pdb' as PDB
-	Read CRYST1 info from PDB: a=85.649 b=85.649 c=85.649 alpha=109.47 beta=109.47 gamma=109.47
+	Setting active reference for distance-based masks: '6dpz.pdb'
+  [trajin 6dpz.pdb]
+	Reading '6dpz.pdb' as PDB
+	Read CRYST1 info from PDB: a=88.054 b=88.054 c=88.054 alpha=109.47 beta=109.47 gamma=109.47
 Warning: Low precision truncated octahedron angles detected (109.47 vs 109.471).
 Warning:   If desired, the 'box' command can be used during processing
 Warning:   to set higher-precision angles.
 Warning: Trajectory box type is 'Truncated octahedron' but topology box type is 'None'.
 Warning: Setting topology box information from trajectory.
-  [strip !(:9,32,41,76,112,193,216,279,296,330@C,O|:19,39,43,85,126,195,227,281,308,332@N,H|:10-18,33-38,42,77-84,113-125,194,217-226,280,297-307,331|:IXV)]
-    STRIP: Stripping atoms in mask [!(:9,32,41,76,112,193,216,279,296,330@C,O|:19,39,43,85,126,195,227,281,308,332@N,H|:10-18,33-38,42,77-84,113-125,194,217-226,280,297-307,331|:IXV)]
+  [strip !(:57,115,146,207,213,216,285,288,311,339,342,345,358@C,O|:65,119,150,212,215,220,287,291,322,341,344,347,360@N,H|:58-64,116-118,147-149,208-211,214,217-219,286,289-290,312-321,340,343,346,359|:H7D)]
+    STRIP: Stripping atoms in mask [!(:57,115,146,207,213,216,285,288,311,339,342,345,358@C,O|:65,119,150,212,215,220,287,291,322,341,344,347,360@N,H|:58-64,116-118,147-149,208-211,214,217-219,286,289-290,312-321,340,343,346,359|:H7D)]
   [strip :WAT,HOH]
     STRIP: Stripping atoms in mask [:WAT,HOH]
   [strip :Na+]
@@ -47,25 +47,25 @@ Warning: Setting topology box information from trajectory.
 ---------- RUN BEGIN -------------------------------------------------
 
 PARAMETER FILES (1 total):
- 0: 3wz8.pdb, 42043 atoms, 12805 res, box: Truncated octahedron, 12476 mol, 12418 solvent
+ 0: 6dpz.pdb, 45631 atoms, 13734 res, box: Truncated octahedron, 13377 mol, 13315 solvent
 
 INPUT TRAJECTORIES (1 total):
- 0: '3wz8.pdb' is a PDB file, Parm 3wz8.pdb (Truncated octahedron box) (reading 1 of 1)
+ 0: '6dpz.pdb' is a PDB file, Parm 6dpz.pdb (Truncated octahedron box) (reading 1 of 1)
   Coordinate processing will occur on 1 frames.
 
 REFERENCE FRAMES (1 total):
-    0: 3wz8.pdb:1
-	Active reference frame for distance-based masks is '3wz8.pdb:1'
+    0: 6dpz.pdb:1
+	Active reference frame for distance-based masks is '6dpz.pdb:1'
 
 OUTPUT TRAJECTORIES (1 total):
   'trunc_cap.pdb' (1 frames) is a PDB file
 
 BEGIN TRAJECTORY PROCESSING:
 .....................................................
-ACTION SETUP FOR PARM '3wz8.pdb' (4 actions):
-  0: [strip !(:9,32,41,76,112,193,216,279,296,330@C,O|:19,39,43,85,126,195,227,281,308,332@N,H|:10-18,33-38,42,77-84,113-125,194,217-226,280,297-307,331|:IXV)]
-	Stripping 41099 atoms.
-	Stripped topology: 944 atoms, 80 res, box: Truncated octahedron, 11 mol
+ACTION SETUP FOR PARM '6dpz.pdb' (4 actions):
+  0: [strip !(:57,115,146,207,213,216,285,288,311,339,342,345,358@C,O|:65,119,150,212,215,220,287,291,322,341,344,347,360@N,H|:58-64,116-118,147-149,208-211,214,217-219,286,289-290,312-321,340,343,346,359|:H7D)]
+	Stripping 45030 atoms.
+	Stripped topology: 601 atoms, 63 res, box: Truncated octahedron, 14 mol
   1: [strip :WAT,HOH]
 	Stripping 0 atoms.
 Warning: No atoms to strip. Skipping.
@@ -82,26 +82,26 @@ Warning: No PDB space group specified.
 .....................................................
 ACTIVE OUTPUT TRAJECTORIES (1):
   trunc_cap.pdb (coordinates, box)
------ 3wz8.pdb (1-1, 1) -----
+----- 6dpz.pdb (1-1, 1) -----
 100% Complete.
 
 Read 1 frames and processed 1 frames.
-TIME: Avg. throughput= 48.5460 frames / second.
+TIME: Avg. throughput= 48.4379 frames / second.
 
 ACTION OUTPUT:
 TIME: Analyses took 0.0000 seconds.
 
 RUN TIMING:
-TIME:		Init               : 0.0000 s (  0.03%)
-TIME:		Trajectory Process : 0.0206 s ( 99.60%)
+TIME:		Init               : 0.0000 s (  0.06%)
+TIME:		Trajectory Process : 0.0206 s ( 99.48%)
 TIME:		Action Post        : 0.0000 s (  0.00%)
 TIME:		Analysis           : 0.0000 s (  0.00%)
 TIME:		Data File Write    : 0.0000 s (  0.00%)
 TIME:		Other              : 0.0001 s (  0.00%)
-TIME:	Run Total 0.0207 s
+TIME:	Run Total 0.0208 s
 ---------- RUN END ---------------------------------------------------
   [quit]
-TIME: Total execution time: 0.1600 seconds.
+TIME: Total execution time: 0.1604 seconds.
 --------------------------------------------------------------------------------
 To cite CPPTRAJ use:
 Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for

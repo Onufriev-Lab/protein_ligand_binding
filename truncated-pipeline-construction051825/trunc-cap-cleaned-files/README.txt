@@ -1,0 +1,1 @@
+This directory contains pdb files of gold set complexes that were truncated at 7 Angstroms and cleaned up.  Complexes 2hb1 and 3acw have ligand names that are numbers, and they have not truncated correctly.

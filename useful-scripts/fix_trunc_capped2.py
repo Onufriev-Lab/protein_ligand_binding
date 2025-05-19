@@ -1,7 +1,8 @@
 import re
+import sys
+import os
 
 def clean_pdb(input_pdb, output_pdb):
-    
     with open(input_pdb, 'r') as infile:
         lines = infile.readlines()
 
@@ -11,9 +12,7 @@ def clean_pdb(input_pdb, output_pdb):
         if line.startswith("ATOM") and re.match(r'^ATOM(?:NME)+', prefix):
             # Replace all leading NMEs in columns 1–17 with 'ATOM   '
             new_prefix = re.sub(r'^ATOM(?:NME)+', 'ATOM', prefix)
-            # Replace the original line with corrected prefix + remainder
             lines[i] = new_prefix + line[17:]
-
 
     # Step 2: Find all 'TER' line indices
     ter_indices = [i for i, line in enumerate(lines) if line.startswith("TER")]
@@ -37,4 +36,11 @@ def clean_pdb(input_pdb, output_pdb):
         outfile.writelines(lines)
 
 if __name__ == "__main__":
-    clean_pdb('6dpz-7-trunc_cap.pdb', '6dpz-7-trunc_cap_cleaned.pdb')
+    if len(sys.argv) != 2:
+        print("Usage: python fix_trunc_capped2.py <input_pdb>")
+        sys.exit(1)
+
+    input_pdb = sys.argv[1]
+    output_pdb = os.path.splitext(input_pdb)[0] + "_cleaned.pdb"
+
+    clean_pdb(input_pdb, output_pdb)

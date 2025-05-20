@@ -1,0 +1,10 @@
+source leaprc.protein.ff19SB
+source leaprc.gaff
+set default PBradii mbondi3
+loadamberparams ./6dpz/LIGAND.frcmod
+LIG = loadmol2 ./6dpz/LIGAND.mol2
+PROT = loadpdb ./6dpz/PROTEIN.pdb
+COMPLEX = combine {PROT LIG}
+saveamberparm COMPLEX ./6dpz/6dpz.top ./6dpz/6dpz.crd
+savepdb COMPLEX ./6dpz/6dpz.pdb
+quit

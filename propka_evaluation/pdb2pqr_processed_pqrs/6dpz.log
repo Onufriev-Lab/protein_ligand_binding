@@ -1,0 +1,870 @@
+2025-05-23 16:17:15,180 INFO:main.py:246:print_splash_screen:PDB2PQR v3.7.1: biomolecular structure conversion software.
+2025-05-23 16:17:15,181 INFO:main.py:248:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2025-05-23 16:17:15,181 INFO:main.py:248:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2025-05-23 16:17:15,181 INFO:main.py:770:main_driver:Checking and transforming input arguments.
+2025-05-23 16:17:15,181 INFO:main.py:774:main_driver:Loading topology files.
+2025-05-23 16:17:15,227 INFO:main.py:776:main_driver:Loading molecule: ./ligand_pdb_combined_for_pdb2pqr/6dpz.pdb
+2025-05-23 16:17:15,235 INFO:main.py:779:main_driver:Dropping water from structure.
+2025-05-23 16:17:15,237 INFO:main.py:781:main_driver:Setting up molecule.
+2025-05-23 16:17:15,246 WARNING:biomolecule.py:995:create_residue:Unable to find amino or nucleic acid definition for H7D.  Parsing as new residue.
+2025-05-23 16:17:15,246 INFO:main.py:423:setup_molecule:Created biomolecule object with 359 residues and 2784 atoms.
+2025-05-23 16:17:15,246 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CA in ARG A 14.
+2025-05-23 16:17:15,246 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CB in ARG A 14.
+2025-05-23 16:17:15,246 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CG in ARG A 14.
+2025-05-23 16:17:15,246 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CD in ARG A 14.
+2025-05-23 16:17:15,246 WARNING:main.py:433:setup_molecule:Multiple occupancies found: NE in ARG A 14.
+2025-05-23 16:17:15,246 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CZ in ARG A 14.
+2025-05-23 16:17:15,247 WARNING:main.py:433:setup_molecule:Multiple occupancies found: NH1 in ARG A 14.
+2025-05-23 16:17:15,247 WARNING:main.py:433:setup_molecule:Multiple occupancies found: NH2 in ARG A 14.
+2025-05-23 16:17:15,247 WARNING:main.py:439:setup_molecule:Multiple occupancies found in ARG A 14. At least one of the instances is being ignored.
+2025-05-23 16:17:15,247 INFO:main.py:785:main_driver:Setting termini states for biomolecule chains.
+2025-05-23 16:17:15,253 INFO:main.py:616:non_trivial:Loading forcefield.
+2025-05-23 16:17:15,260 INFO:main.py:620:non_trivial:Loading hydrogen topology definitions.
+2025-05-23 16:17:15,261 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLN A 22
+2025-05-23 16:17:15,261 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLN A 22
+2025-05-23 16:17:15,261 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLN A 22
+2025-05-23 16:17:15,261 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NE2 in residue GLN A 22
+2025-05-23 16:17:15,262 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 24
+2025-05-23 16:17:15,262 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 24
+2025-05-23 16:17:15,262 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 24
+2025-05-23 16:17:15,262 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 24
+2025-05-23 16:17:15,262 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 37
+2025-05-23 16:17:15,262 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 37
+2025-05-23 16:17:15,262 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 37
+2025-05-23 16:17:15,262 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 37
+2025-05-23 16:17:15,262 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 99
+2025-05-23 16:17:15,263 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 99
+2025-05-23 16:17:15,263 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 99
+2025-05-23 16:17:15,263 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 99
+2025-05-23 16:17:15,263 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 124
+2025-05-23 16:17:15,263 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 124
+2025-05-23 16:17:15,263 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 124
+2025-05-23 16:17:15,263 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 124
+2025-05-23 16:17:15,263 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 205
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 205
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 205
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 205
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 207
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 207
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 207
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 207
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASP A 242
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASP A 242
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD2 in residue ASP A 242
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASN A 244
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASN A 244
+2025-05-23 16:17:15,264 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom ND2 in residue ASN A 244
+2025-05-23 16:17:15,265 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 245
+2025-05-23 16:17:15,265 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 245
+2025-05-23 16:17:15,265 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 245
+2025-05-23 16:17:15,265 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 245
+2025-05-23 16:17:15,265 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 246
+2025-05-23 16:17:15,265 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 246
+2025-05-23 16:17:15,265 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 246
+2025-05-23 16:17:15,265 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 246
+2025-05-23 16:17:15,265 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASP A 264
+2025-05-23 16:17:15,265 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASP A 264
+2025-05-23 16:17:15,266 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD2 in residue ASP A 264
+2025-05-23 16:17:15,266 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASN A 279
+2025-05-23 16:17:15,266 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASN A 279
+2025-05-23 16:17:15,266 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom ND2 in residue ASN A 279
+2025-05-23 16:17:15,266 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASP A 281
+2025-05-23 16:17:15,266 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASP A 281
+2025-05-23 16:17:15,266 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD2 in residue ASP A 281
+2025-05-23 16:17:15,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 290
+2025-05-23 16:17:15,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 290
+2025-05-23 16:17:15,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 290
+2025-05-23 16:17:15,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 290
+2025-05-23 16:17:15,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 299
+2025-05-23 16:17:15,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 299
+2025-05-23 16:17:15,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 299
+2025-05-23 16:17:15,267 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 299
+2025-05-23 16:17:15,268 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLN A 22
+2025-05-23 16:17:15,269 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLN A 22
+2025-05-23 16:17:15,269 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLN A 22
+2025-05-23 16:17:15,269 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NE2 in residue GLN A 22
+2025-05-23 16:17:15,269 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 24
+2025-05-23 16:17:15,269 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 24
+2025-05-23 16:17:15,269 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 24
+2025-05-23 16:17:15,269 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 24
+2025-05-23 16:17:15,269 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 37
+2025-05-23 16:17:15,270 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 37
+2025-05-23 16:17:15,270 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 37
+2025-05-23 16:17:15,270 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 37
+2025-05-23 16:17:15,270 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 99
+2025-05-23 16:17:15,271 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 99
+2025-05-23 16:17:15,271 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 99
+2025-05-23 16:17:15,271 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 99
+2025-05-23 16:17:15,271 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 124
+2025-05-23 16:17:15,271 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 124
+2025-05-23 16:17:15,271 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 124
+2025-05-23 16:17:15,271 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 124
+2025-05-23 16:17:15,272 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 205
+2025-05-23 16:17:15,272 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 205
+2025-05-23 16:17:15,272 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 205
+2025-05-23 16:17:15,272 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 205
+2025-05-23 16:17:15,272 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 207
+2025-05-23 16:17:15,272 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 207
+2025-05-23 16:17:15,272 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 207
+2025-05-23 16:17:15,273 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 207
+2025-05-23 16:17:15,273 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASP A 242
+2025-05-23 16:17:15,273 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASP A 242
+2025-05-23 16:17:15,273 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD2 in residue ASP A 242
+2025-05-23 16:17:15,273 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASN A 244
+2025-05-23 16:17:15,273 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASN A 244
+2025-05-23 16:17:15,273 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom ND2 in residue ASN A 244
+2025-05-23 16:17:15,273 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 245
+2025-05-23 16:17:15,273 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 245
+2025-05-23 16:17:15,273 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 245
+2025-05-23 16:17:15,273 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 245
+2025-05-23 16:17:15,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 246
+2025-05-23 16:17:15,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 246
+2025-05-23 16:17:15,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 246
+2025-05-23 16:17:15,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 246
+2025-05-23 16:17:15,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASP A 264
+2025-05-23 16:17:15,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASP A 264
+2025-05-23 16:17:15,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD2 in residue ASP A 264
+2025-05-23 16:17:15,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASN A 279
+2025-05-23 16:17:15,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASN A 279
+2025-05-23 16:17:15,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom ND2 in residue ASN A 279
+2025-05-23 16:17:15,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASP A 281
+2025-05-23 16:17:15,274 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASP A 281
+2025-05-23 16:17:15,275 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD2 in residue ASP A 281
+2025-05-23 16:17:15,275 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 290
+2025-05-23 16:17:15,275 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 290
+2025-05-23 16:17:15,275 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 290
+2025-05-23 16:17:15,275 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 290
+2025-05-23 16:17:15,275 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 299
+2025-05-23 16:17:15,275 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 299
+2025-05-23 16:17:15,275 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 299
+2025-05-23 16:17:15,275 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 299
+2025-05-23 16:17:15,275 INFO:main.py:630:non_trivial:Attempting to repair 59 missing atoms in biomolecule.
+2025-05-23 16:17:15,276 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLN A 22
+2025-05-23 16:17:15,276 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLN A 22
+2025-05-23 16:17:15,276 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLN A 22
+2025-05-23 16:17:15,276 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NE2 in residue GLN A 22
+2025-05-23 16:17:15,276 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 24
+2025-05-23 16:17:15,276 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 24
+2025-05-23 16:17:15,276 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 24
+2025-05-23 16:17:15,276 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 24
+2025-05-23 16:17:15,276 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 37
+2025-05-23 16:17:15,276 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 37
+2025-05-23 16:17:15,277 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 37
+2025-05-23 16:17:15,277 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 37
+2025-05-23 16:17:15,277 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 99
+2025-05-23 16:17:15,277 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 99
+2025-05-23 16:17:15,277 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 99
+2025-05-23 16:17:15,277 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 99
+2025-05-23 16:17:15,277 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 124
+2025-05-23 16:17:15,277 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 124
+2025-05-23 16:17:15,277 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 124
+2025-05-23 16:17:15,277 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 124
+2025-05-23 16:17:15,278 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 205
+2025-05-23 16:17:15,278 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 205
+2025-05-23 16:17:15,278 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 205
+2025-05-23 16:17:15,278 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 205
+2025-05-23 16:17:15,278 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 207
+2025-05-23 16:17:15,278 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 207
+2025-05-23 16:17:15,278 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 207
+2025-05-23 16:17:15,278 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 207
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASP A 242
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASP A 242
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD2 in residue ASP A 242
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASN A 244
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASN A 244
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom ND2 in residue ASN A 244
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue GLU A 245
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue GLU A 245
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE1 in residue GLU A 245
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OE2 in residue GLU A 245
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 246
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 246
+2025-05-23 16:17:15,279 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 246
+2025-05-23 16:17:15,280 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 246
+2025-05-23 16:17:15,280 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASP A 264
+2025-05-23 16:17:15,280 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASP A 264
+2025-05-23 16:17:15,280 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD2 in residue ASP A 264
+2025-05-23 16:17:15,280 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASN A 279
+2025-05-23 16:17:15,280 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASN A 279
+2025-05-23 16:17:15,280 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom ND2 in residue ASN A 279
+2025-05-23 16:17:15,280 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue ASP A 281
+2025-05-23 16:17:15,280 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD1 in residue ASP A 281
+2025-05-23 16:17:15,280 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OD2 in residue ASP A 281
+2025-05-23 16:17:15,280 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 290
+2025-05-23 16:17:15,281 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 290
+2025-05-23 16:17:15,281 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 290
+2025-05-23 16:17:15,281 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 290
+2025-05-23 16:17:15,281 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 299
+2025-05-23 16:17:15,281 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 299
+2025-05-23 16:17:15,281 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 299
+2025-05-23 16:17:15,281 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 299
+2025-05-23 16:17:15,281 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue GLN A 22 at coordinates -2.480, 1.420, -29.279
+2025-05-23 16:17:15,282 INFO:biomolecule.py:1080:repair_heavy:Added atom CD to residue GLN A 22 at coordinates -2.883, 1.944, -27.930
+2025-05-23 16:17:15,282 INFO:biomolecule.py:1080:repair_heavy:Added atom OE1 to residue GLN A 22 at coordinates -2.133, 2.646, -27.244
+2025-05-23 16:17:15,282 INFO:biomolecule.py:1080:repair_heavy:Added atom NE2 to residue GLN A 22 at coordinates -4.101, 1.585, -27.511
+2025-05-23 16:17:15,282 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue LYS A 24 at coordinates 2.566, 1.155, -35.870
+2025-05-23 16:17:15,282 INFO:biomolecule.py:1080:repair_heavy:Added atom CD to residue LYS A 24 at coordinates 2.742, 2.117, -37.032
+2025-05-23 16:17:15,283 INFO:biomolecule.py:1080:repair_heavy:Added atom CE to residue LYS A 24 at coordinates 1.432, 2.701, -37.506
+2025-05-23 16:17:15,283 INFO:biomolecule.py:1080:repair_heavy:Added atom NZ to residue LYS A 24 at coordinates 1.653, 3.634, -38.640
+2025-05-23 16:17:15,283 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue LYS A 37 at coordinates 8.781, -18.974, -9.164
+2025-05-23 16:17:15,283 INFO:biomolecule.py:1080:repair_heavy:Added atom CD to residue LYS A 37 at coordinates 7.850, -20.173, -9.148
+2025-05-23 16:17:15,284 INFO:biomolecule.py:1080:repair_heavy:Added atom CE to residue LYS A 37 at coordinates 8.064, -21.059, -7.943
+2025-05-23 16:17:15,284 INFO:biomolecule.py:1080:repair_heavy:Added atom NZ to residue LYS A 37 at coordinates 7.133, -22.215, -7.970
+2025-05-23 16:17:15,284 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue LYS A 99 at coordinates 41.966, 25.415, -10.966
+2025-05-23 16:17:15,284 INFO:biomolecule.py:1080:repair_heavy:Added atom CD to residue LYS A 99 at coordinates 42.211, 26.875, -10.644
+2025-05-23 16:17:15,285 INFO:biomolecule.py:1080:repair_heavy:Added atom CE to residue LYS A 99 at coordinates 43.675, 27.245, -10.679
+2025-05-23 16:17:15,285 INFO:biomolecule.py:1080:repair_heavy:Added atom NZ to residue LYS A 99 at coordinates 43.865, 28.681, -10.358
+2025-05-23 16:17:15,285 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue GLU A 124 at coordinates 33.299, 16.680, -32.965
+2025-05-23 16:17:15,286 INFO:biomolecule.py:1080:repair_heavy:Added atom CD to residue GLU A 124 at coordinates 33.521, 18.154, -32.864
+2025-05-23 16:17:15,286 INFO:biomolecule.py:1080:repair_heavy:Added atom OE1 to residue GLU A 124 at coordinates 34.327, 18.671, -32.101
+2025-05-23 16:17:15,286 INFO:biomolecule.py:1080:repair_heavy:Added atom OE2 to residue GLU A 124 at coordinates 32.785, 18.801, -33.636
+2025-05-23 16:17:15,286 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue GLU A 205 at coordinates 12.710, 7.469, -38.921
+2025-05-23 16:17:15,287 INFO:biomolecule.py:1080:repair_heavy:Added atom CD to residue GLU A 205 at coordinates 13.445, 8.643, -39.490
+2025-05-23 16:17:15,287 INFO:biomolecule.py:1080:repair_heavy:Added atom OE1 to residue GLU A 205 at coordinates 13.985, 8.642, -40.587
+2025-05-23 16:17:15,287 INFO:biomolecule.py:1080:repair_heavy:Added atom OE2 to residue GLU A 205 at coordinates 13.456, 9.619, -38.713
+2025-05-23 16:17:15,287 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue LYS A 207 at coordinates 15.730, 2.995, -42.612
+2025-05-23 16:17:15,287 INFO:biomolecule.py:1080:repair_heavy:Added atom CD to residue LYS A 207 at coordinates 16.713, 4.111, -42.915
+2025-05-23 16:17:15,287 INFO:biomolecule.py:1080:repair_heavy:Added atom CE to residue LYS A 207 at coordinates 16.261, 4.993, -44.055
+2025-05-23 16:17:15,288 INFO:biomolecule.py:1080:repair_heavy:Added atom NZ to residue LYS A 207 at coordinates 17.252, 6.067, -44.313
+2025-05-23 16:17:15,288 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue ASP A 242 at coordinates 17.833, -15.246, -1.899
+2025-05-23 16:17:15,288 INFO:biomolecule.py:1080:repair_heavy:Added atom OD1 to residue ASP A 242 at coordinates 17.873, -14.909, -0.697
+2025-05-23 16:17:15,288 INFO:biomolecule.py:1080:repair_heavy:Added atom OD2 to residue ASP A 242 at coordinates 16.786, -15.579, -2.478
+2025-05-23 16:17:15,288 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue ASN A 244 at coordinates 25.826, -18.244, -3.222
+2025-05-23 16:17:15,288 INFO:biomolecule.py:1080:repair_heavy:Added atom OD1 to residue ASN A 244 at coordinates 24.711, -17.906, -2.805
+2025-05-23 16:17:15,289 INFO:biomolecule.py:1080:repair_heavy:Added atom ND2 to residue ASN A 244 at coordinates 26.081, -19.457, -3.703
+2025-05-23 16:17:15,289 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue GLU A 245 at coordinates 30.102, -14.072, -6.126
+2025-05-23 16:17:15,289 INFO:biomolecule.py:1080:repair_heavy:Added atom CD to residue GLU A 245 at coordinates 30.443, -13.614, -7.509
+2025-05-23 16:17:15,289 INFO:biomolecule.py:1080:repair_heavy:Added atom OE1 to residue GLU A 245 at coordinates 30.427, -12.442, -7.861
+2025-05-23 16:17:15,289 INFO:biomolecule.py:1080:repair_heavy:Added atom OE2 to residue GLU A 245 at coordinates 30.734, -14.562, -8.266
+2025-05-23 16:17:15,289 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue LYS A 246 at coordinates 30.460, -12.501, 1.087
+2025-05-23 16:17:15,290 INFO:biomolecule.py:1080:repair_heavy:Added atom CD to residue LYS A 246 at coordinates 31.428, -12.570, 2.251
+2025-05-23 16:17:15,290 INFO:biomolecule.py:1080:repair_heavy:Added atom CE to residue LYS A 246 at coordinates 31.410, -13.909, 2.949
+2025-05-23 16:17:15,290 INFO:biomolecule.py:1080:repair_heavy:Added atom NZ to residue LYS A 246 at coordinates 32.372, -13.929, 4.079
+2025-05-23 16:17:15,290 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue ASP A 264 at coordinates 6.540, 12.731, -5.843
+2025-05-23 16:17:15,290 INFO:biomolecule.py:1080:repair_heavy:Added atom OD1 to residue ASP A 264 at coordinates 6.834, 13.810, -5.286
+2025-05-23 16:17:15,290 INFO:biomolecule.py:1080:repair_heavy:Added atom OD2 to residue ASP A 264 at coordinates 5.380, 12.422, -6.157
+2025-05-23 16:17:15,291 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue ASN A 279 at coordinates 0.601, 9.421, -6.293
+2025-05-23 16:17:15,291 INFO:biomolecule.py:1080:repair_heavy:Added atom OD1 to residue ASN A 279 at coordinates 0.415, 8.562, -5.425
+2025-05-23 16:17:15,291 INFO:biomolecule.py:1080:repair_heavy:Added atom ND2 to residue ASN A 279 at coordinates 0.508, 10.727, -6.048
+2025-05-23 16:17:15,291 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue ASP A 281 at coordinates -1.686, 10.073, -13.060
+2025-05-23 16:17:15,291 INFO:biomolecule.py:1080:repair_heavy:Added atom OD1 to residue ASP A 281 at coordinates -1.871, 8.935, -13.541
+2025-05-23 16:17:15,291 INFO:biomolecule.py:1080:repair_heavy:Added atom OD2 to residue ASP A 281 at coordinates -2.608, 10.873, -12.834
+2025-05-23 16:17:15,292 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue LYS A 290 at coordinates 8.752, 16.625, -22.608
+2025-05-23 16:17:15,292 INFO:biomolecule.py:1080:repair_heavy:Added atom CD to residue LYS A 290 at coordinates 7.336, 17.118, -22.863
+2025-05-23 16:17:15,292 INFO:biomolecule.py:1080:repair_heavy:Added atom CE to residue LYS A 290 at coordinates 6.946, 17.029, -24.320
+2025-05-23 16:17:15,292 INFO:biomolecule.py:1080:repair_heavy:Added atom NZ to residue LYS A 290 at coordinates 5.559, 17.519, -24.521
+2025-05-23 16:17:15,292 INFO:biomolecule.py:1080:repair_heavy:Added atom CG to residue LYS A 299 at coordinates 15.929, 18.720, -1.548
+2025-05-23 16:17:15,293 INFO:biomolecule.py:1080:repair_heavy:Added atom CD to residue LYS A 299 at coordinates 14.672, 18.627, -0.699
+2025-05-23 16:17:15,293 INFO:biomolecule.py:1080:repair_heavy:Added atom CE to residue LYS A 299 at coordinates 13.725, 19.781, -0.937
+2025-05-23 16:17:15,293 INFO:biomolecule.py:1080:repair_heavy:Added atom NZ to residue LYS A 299 at coordinates 12.514, 19.648, -0.089
+2025-05-23 16:17:15,293 INFO:main.py:635:non_trivial:Updating disulfide bridges.
+2025-05-23 16:17:15,293 INFO:main.py:638:non_trivial:Debumping biomolecule.
+2025-05-23 16:17:15,351 INFO:main.py:645:non_trivial:Assigning titration states with PROPKA.
+2025-05-23 16:17:15,364 INFO:output.py:74:print_header:
+propka3.5.1                                                                                  2025-05-23
+
+-------------------------------------------------------------------------------
+--                                                                           --
+--  PROPKA: A PROTEIN PKA PREDICTOR                                          --
+--                                                                           --
+--  VERSION 1.0,  04/25/2004,  IOWA CITY                                     --
+--  BY HUI LI                                                                --
+--                                                                           --
+--  VERSION 2.0,  11/05/2007, IOWA CITY/COPENHAGEN                           --
+--  BY DELPHINE C. BAS AND DAVID M. ROGERS                                   --
+--                                                                           --
+--  VERSION 3.0,  01/06/2011, COPENHAGEN                                     --
+--  BY MATS H.M. OLSSON AND CHRESTEN R. SONDERGARD                           --
+--                                                                           --
+--  VERSION 3.1,  07/01/2011, COPENHAGEN                                     --
+--  BY CHRESTEN R. SONDERGARD AND MATS H.M. OLSSON                           --
+--                                                                           --
+--  VERSION 3.2,  06/17/2020, PLANET EARTH                                   --
+--  SEE ABOVE FOR AUTHORS                                                    --
+--                                                                           --
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+References:
+
+Very Fast Empirical Prediction and Rationalization of Protein pKa Values.
+Hui Li, Andrew D. Robertson and Jan H. Jensen. PROTEINS: Structure, Function,
+and Bioinformatics. 61:704-721 (2005)
+
+Very Fast Prediction and Rationalization of pKa Values for Protein-Ligand
+Complexes.  Delphine C. Bas, David M. Rogers and Jan H. Jensen.  PROTEINS:
+Structure, Function, and Bioinformatics 73:765-783 (2008)
+
+PROPKA3: Consistent Treatment of Internal and Surface Residues in Empirical
+pKa predictions.  Mats H.M. Olsson, Chresten R. Sondergard, Michal Rostkowski,
+and Jan H. Jensen.  Journal of Chemical Theory and Computation, 7(2):525-537
+(2011)
+
+Improved Treatment of Ligands and Coupling Effects in Empirical Calculation
+and Rationalization of pKa Values.  Chresten R. Sondergaard, Mats H.M. Olsson,
+Michal Rostkowski, and Jan H. Jensen.  Journal of Chemical Theory and
+Computation, (2011)
+-------------------------------------------------------------------------------
+
+
+
+2025-05-23 16:17:15,454 INFO:group.py:1109:__init__:Found N32 group:  2801-   N     7-H7D (H) [  19.742    6.351  -24.923] N
+2025-05-23 16:17:15,455 INFO:group.py:1044:__init__:Found OCO group:  2802-   C     7-H7D (H) [  17.822    6.619  -22.680] C
+2025-05-23 16:17:15,455 INFO:group.py:1131:__init__:Found N33 group:  2805-  N1     7-H7D (H) [  22.269    6.083  -25.859] N
+2025-05-23 16:17:15,455 INFO:group.py:977:__init__:Found O2  group:  2808-  O2     7-H7D (H) [  21.547    5.342  -23.609] O
+2025-05-23 16:17:15,455 INFO:group.py:977:__init__:Found O2  group:  2810-  O3     7-H7D (H) [  21.653    7.658  -24.038] O
+2025-05-23 16:17:15,458 INFO:conformation_container.py:124:find_covalently_coupled_groups:Coupling map:
+Covalent coupling map for Conformation container 1A with 3348 atoms and 871 groups
+            H7D   N H | H7D  N1 H | 
+H7D   N H             |     X     | 
+H7D  N1 H       X     |           | 
+2025-05-23 16:17:15,458 INFO:conformation_container.py:213:calculate_pka:Calculating pKas for Conformation container 1A with 3348 atoms and 871 groups
+2025-05-23 16:17:15,787 INFO:conformation_container.py:235:calculate_pka:Removing penalised groups!!!
+2025-05-23 16:17:15,815 INFO:output.py:225:print_pka_section:pKa determinants:
+
+---------  -----   ------   ---------------------    --------------    --------------    --------------
+                            DESOLVATION  EFFECTS       SIDECHAIN          BACKBONE        COULOMBIC
+ RESIDUE    pKa    BURIED     REGULAR      RE        HYDROGEN BOND     HYDROGEN BOND      INTERACTION
+---------  -----   ------   ---------   ---------    --------------    --------------    --------------
+
+ASP  10 A   3.42     0 %    0.41  189   0.00    0   -0.42 ASN   9 A    0.00 XXX   0 X   -0.31 ARG  14 A
+ASP  10 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.06 HIS  13 A
+
+ASP  47 A   3.36     2 %    0.70  287   0.00    0    0.00 XXX   0 X   -0.12 ALA  49 A   -0.17 LYS  50 A
+ASP  47 A                                            0.00 XXX   0 X   -0.81 LYS  50 A   -0.03 HIS 210 A
+
+ASP  76 A   4.47    66 %    2.42  467   0.48    0   -0.73 THR 247 A    0.00 XXX   0 X   -0.35 ARG 177 A
+ASP  76 A                                           -0.72 ARG  80 A    0.00 XXX   0 X    0.17 GLU  82 A
+ASP  76 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.61 ARG  80 A
+
+ASP  87 A   1.46     8 %    0.96  305   0.06    0   -0.84 LYS  84 A   -0.65 LYS  84 A   -0.38 LYS  84 A
+ASP  87 A                                           -0.25 LYS  91 A    0.00 XXX   0 X   -0.38 LYS  91 A
+ASP  87 A                                           -0.85 TYR  92 A    0.00 XXX   0 X    0.00 XXX   0 X
+
+ASP 123 A   3.86     0 %    0.16  202   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.10 LYS 126 A
+
+ASP 130 A   2.64     0 %    0.40  181   0.00    0   -0.38 SER 127 A   -0.42 LYS 126 A   -0.16 LYS 126 A
+ASP 130 A                                           -0.20 ARG 133 A   -0.13 SER 127 A   -0.28 ARG 133 A
+
+ASP 217 A   4.13    57 %    1.36  440   0.56    0    0.00 XXX   0 X   -0.76 GLY 214 A   -0.25 LYS 224 A
+ASP 217 A                                            0.00 XXX   0 X   -0.10 ASP 217 A    0.00 XXX   0 X
+ASP 217 A                                            0.00 XXX   0 X   -0.48 ALA 218 A    0.00 XXX   0 X
+
+ASP 229 A   5.03    74 %    2.68  489   0.41    0   -0.83 THR 187 A   -0.73 HIS 186 A   -0.10 ARG 232 A
+ASP 229 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.35 HIS 186 A
+ASP 229 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.01 GLU 195 A
+ASP 229 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.13 GLU 228 A
+
+ASP 242 A   3.97     0 %    0.27  277   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.10 LYS 239 A
+ASP 242 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.01 ARG 309 A
+
+ASP 264 A   3.90     3 %    0.26  290   0.00    0   -0.18 SER 282 A    0.00 XXX   0 X    0.03 ASP 275 A
+
+ASP 275 A   3.27    19 %    0.70  335   0.04    0   -0.61 ARG 258 A    0.00 XXX   0 X   -0.54 ARG 258 A
+ASP 275 A                                           -0.13 TYR 266 A    0.00 XXX   0 X    0.00 XXX   0 X
+
+ASP 281 A   4.01     0 %    0.21  200   0.00    0    0.00 XXX   0 X   -0.00 ASP 281 A    0.00 XXX   0 X
+
+ASP 288 A   3.17     0 %    0.45  260   0.00    0    0.00 XXX   0 X   -0.01 ASN 289 A   -0.24 LYS 290 A
+ASP 288 A                                            0.00 XXX   0 X   -0.83 LYS 290 A    0.00 XXX   0 X
+
+ASP 351 A   4.59    25 %    0.67  352   0.07    0    0.00 XXX   0 X    0.00 XXX   0 X    0.05 ASP 281 A
+
+GLU  21 A   4.67     0 %    0.17  170   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+GLU  61 A   4.92*   83 %    3.55  514   0.28    0   -0.77 THR 319 A   -0.83 VAL 211 A   -0.43 LYS 224 A
+GLU  61 A                                           -0.85 TYR 199 A    0.00 XXX   0 X   -0.00 H7D   N H
+GLU  61 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.53 HIS 210 A
+
+GLU  82 A   3.36    22 %    1.08  342   0.07    0   -1.55 ARG 177 A    0.00 XXX   0 X   -0.25 ARG  80 A
+GLU  82 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.49 ARG 177 A
+
+GLU  95 A   4.17     0 %    0.34  229   0.00    0    0.00 XXX   0 X   -0.66 GLU  95 A   -0.01 LYS 164 A
+
+GLU 124 A   4.62     0 %    0.09  150   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.04 LYS 126 A
+GLU 124 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.03 ASP 123 A
+GLU 124 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.03 ASP 130 A
+
+GLU 171 A   5.27    29 %    0.85  363   0.05    0    0.00 XXX   0 X   -0.07 ASN 190 A   -0.06 LYS 224 A
+GLU 171 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.01 ASP 217 A
+
+GLU 195 A   4.53     0 %    0.43  278   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.14 LYS 197 A
+GLU 195 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.25 HIS 186 A
+
+GLU 196 A   4.72     0 %    0.25  222   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.00 LYS  50 A
+GLU 196 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.03 HIS 210 A
+
+GLU 205 A   4.47     0 %    0.11  122   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.14 ARG 204 A
+GLU 205 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.00 LYS 342 A
+
+GLU 219 A   6.99    93 %    2.57  542   0.31    0    0.00 XXX   0 X   -0.57 GLU 219 A   -0.14 LYS 164 A
+GLU 219 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.32 ASP 217 A
+
+GLU 228 A   4.47    22 %    0.66  344   0.10    0   -0.70 GLN  56 A    0.00 XXX   0 X   -0.09 HIS 186 A
+
+GLU 245 A   5.95    26 %    1.25  353   0.19    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.12 ARG  80 A
+GLU 245 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.00 ARG 177 A
+GLU 245 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.02 LYS 183 A
+GLU 245 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.16 ASP  76 A
+
+GLU 272 A   3.59   100 %    2.58  678   0.44    0   -0.03 ARG 148 A    0.00 XXX   0 X   -0.08 LYS  67 A
+GLU 272 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.11 H7D   C H
+GLU 272 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -1.55 ARG 148 A
+GLU 272 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.93 HIS 314 A
+GLU 272 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -1.45 LYS 315 A
+
+GLU 331 A   4.41     0 %    0.26  244   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.24 ARG 309 A
+GLU 331 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.11 LYS 332 A
+
+GLU 333 A   4.37     0 %    0.28  274   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.34 LYS 239 A
+GLU 333 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.08 ARG 309 A
+GLU 333 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.02 ASP 242 A
+
+C-  361 A   3.25     1 %    0.28  284   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.23 LYS 332 A
+
+HIS  13 A   5.93    12 %   -0.64  316   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.00 N+    4 A
+HIS  13 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.06 ASP  10 A
+
+HIS 108 A   4.48    71 %   -2.02  481   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+HIS 186 A   6.55    23 %   -0.61  345   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.03 LYS 197 A
+HIS 186 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.25 GLU 195 A
+HIS 186 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.09 GLU 228 A
+HIS 186 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.35 ASP 229 A
+
+HIS 210 A   5.38*   60 %   -2.36  448   0.00    0    0.00 XXX   0 X    0.74 ALA 200 A   -0.09 LYS 224 A
+HIS 210 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.03 ASP  47 A
+HIS 210 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.03 GLU 196 A
+HIS 210 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.53 GLU  61 A
+
+HIS 314 A   4.15   100 %   -2.99  672   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.29 LYS 315 A
+HIS 314 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.93 GLU 272 A
+
+TYR  34 A  10.32     0 %    0.30  266   0.00    0   -0.00 GLN   7 A    0.00 XXX   0 X    0.01 GLU 333 A
+TYR  34 A                                           -0.15 GLN  35 A    0.00 XXX   0 X    0.10 C-  361 A
+TYR  34 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.06 TYR  39 A
+
+TYR  39 A  10.20     0 %    0.41  271   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.20 LYS  37 A
+
+TYR  40 A  12.06    51 %    1.69  424   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.34 GLU 228 A
+TYR  40 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.09 ASP 229 A
+TYR  40 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.05 ARG 232 A
+
+TYR  45 A  10.17     0 %    0.17  178   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+TYR  92 A  12.44    20 %    1.28  337   0.00    0    0.85 ASP  87 A   -0.14 LYS  84 A    0.02 GLU  82 A
+TYR  92 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.43 ASP  87 A
+
+TYR 112 A  13.94   100 %    3.67  702   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.82 ARG 148 A
+TYR 112 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.15 H7D   C H
+TYR 112 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.94 GLU 272 A
+
+TYR 135 A  13.98   100 %    3.85  585   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.13 GLU 219 A
+
+TYR 150 A  17.13   100 %    4.27  633   0.00    0   -0.85 SER  64 A    0.00 XXX   0 X   -0.34 ARG 148 A
+TYR 150 A                                            0.00 XXX   0 X    0.00 XXX   0 X    1.56 TYR 112 A
+TYR 150 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.74 GLU 272 A
+TYR 150 A                                            0.00 XXX   0 X    0.00 XXX   0 X    1.76 H7D   C H
+
+TYR 199 A  14.67    72 %    2.76  484   0.00    0    0.85 GLU  61 A    0.00 XXX   0 X    0.01 GLU 196 A
+TYR 199 A                                            0.00 XXX   0 X    0.00 XXX   0 X    1.05 GLU  61 A
+
+TYR 203 A  10.94    26 %    1.43  353   0.00    0    0.00 XXX   0 X   -0.83 ILE  48 A    0.34 ASP  47 A
+
+TYR 221 A  12.09    58 %    1.57  443   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.06 ASP 123 A
+TYR 221 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.43 ASP 217 A
+TYR 221 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.04 GLU 219 A
+
+TYR 259 A  12.54    87 %    2.80  524   0.00    0   -0.26 SER 257 A    0.00 XXX   0 X    0.00 XXX   0 X
+
+TYR 266 A  10.84    18 %    0.62  331   0.00    0   -0.05 ARG 258 A    0.00 XXX   0 X   -0.32 ARG 258 A
+TYR 266 A                                           -0.02 GLN 261 A    0.00 XXX   0 X    0.07 ASP 264 A
+TYR 266 A                                            0.13 ASP 275 A    0.00 XXX   0 X    0.42 ASP 275 A
+
+TYR 325 A  14.05   100 %    4.61  670   0.00    0   -0.68 TRP 312 A    0.00 XXX   0 X    0.13 GLU 272 A
+
+TYR 344 A  12.53   100 %    3.54  601   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -1.01 ARG 349 A
+
+LYS  24 A  10.43     0 %   -0.07  141   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  37 A  10.61     0 %   -0.10  150   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.20 TYR  39 A
+
+LYS  50 A  10.56     0 %   -0.11  181   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.17 ASP  47 A
+LYS  50 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.00 GLU 196 A
+
+LYS  51 A  10.40     0 %   -0.10   99   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS  67 A   6.27   100 %   -4.25  625   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.08 GLU 272 A
+LYS  67 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -1.07 LYS 315 A
+LYS  67 A                                            0.00 XXX   0 X    0.00 XXX   0 X    1.00 H7D   C H
+
+LYS  84 A  11.40     0 %   -0.33  221   0.00    0    0.84 ASP  87 A    0.00 XXX   0 X    0.38 ASP  87 A
+
+LYS  91 A  10.57     0 %   -0.30  221   0.00    0    0.25 ASP  87 A    0.00 XXX   0 X   -0.26 LYS  84 A
+LYS  91 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.38 ASP  87 A
+
+LYS  99 A  10.46     0 %   -0.04   88   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS 126 A  10.66     0 %   -0.14  137   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.10 ASP 123 A
+LYS 126 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.04 GLU 124 A
+LYS 126 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.16 ASP 130 A
+
+LYS 164 A   9.97    40 %   -0.67  394   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.01 GLU  95 A
+LYS 164 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.14 GLU 219 A
+
+LYS 183 A  10.27     0 %   -0.13  199   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.12 ARG 232 A
+LYS 183 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.02 GLU 245 A
+
+LYS 197 A  10.50     0 %   -0.15  202   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.14 GLU 195 A
+
+LYS 207 A  10.34     0 %   -0.07   89   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.09 ARG 204 A
+
+LYS 224 A   9.11    77 %   -2.13  498   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.43 GLU  61 A
+LYS 224 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.06 GLU 171 A
+LYS 224 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.25 ASP 217 A
+
+LYS 239 A   9.03    46 %   -1.81  410   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.10 ASP 242 A
+LYS 239 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.10 ARG 309 A
+LYS 239 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.34 GLU 333 A
+
+LYS 246 A  10.45     0 %   -0.05  111   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS 290 A  10.66     0 %   -0.08  121   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.24 ASP 288 A
+
+LYS 299 A  10.41     0 %   -0.09  168   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+LYS 315 A   9.10   100 %   -3.71  687   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.35 ARG 148 A
+LYS 315 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.10 ARG 349 A
+LYS 315 A                                            0.00 XXX   0 X    0.00 XXX   0 X    1.45 GLU 272 A
+LYS 315 A                                            0.00 XXX   0 X    0.00 XXX   0 X    1.30 H7D   C H
+
+LYS 332 A  10.59     0 %   -0.25  256   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.11 GLU 331 A
+LYS 332 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.23 C-  361 A
+
+LYS 342 A   9.92    18 %   -0.52  331   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 GLU 205 A
+LYS 342 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.06 LYS  24 A
+
+ARG  14 A  12.60     0 %   -0.21  170   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.31 ASP  10 A
+
+ARG  80 A  12.86    24 %   -0.85  348   0.00    0    0.72 ASP  76 A    0.00 XXX   0 X    0.25 GLU  82 A
+ARG  80 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.12 GLU 245 A
+ARG  80 A                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.49 ARG 177 A
+ARG  80 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.61 ASP  76 A
+
+ARG 133 A  12.74     0 %   -0.24  178   0.00    0    0.20 ASP 130 A    0.00 XXX   0 X    0.28 ASP 130 A
+
+ARG 148 A  12.47   100 %   -2.77  616   0.00    0    0.03 GLU 272 A    0.00 XXX   0 X    0.82 TYR 112 A
+ARG 148 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.34 TYR 150 A
+ARG 148 A                                            0.00 XXX   0 X    0.00 XXX   0 X    1.55 GLU 272 A
+
+ARG 177 A  13.67    31 %   -1.22  367   0.00    0    1.55 GLU  82 A    0.00 XXX   0 X    0.35 ASP  76 A
+ARG 177 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.00 GLU 245 A
+ARG 177 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.49 GLU  82 A
+
+ARG 204 A  12.44     0 %   -0.20  228   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.14 GLU 205 A
+
+ARG 232 A  12.07    23 %   -0.58  347   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.05 TYR  40 A
+ARG 232 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.10 ASP 229 A
+
+ARG 258 A  12.13    52 %   -1.89  428   0.00    0    0.05 TYR 266 A    0.00 XXX   0 X    0.32 TYR 266 A
+ARG 258 A                                            0.61 ASP 275 A    0.00 XXX   0 X    0.54 ASP 275 A
+
+ARG 296 A  12.20     0 %   -0.28  279   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X   -0.02 ARG 148 A
+
+ARG 309 A  12.39    11 %   -0.43  313   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.01 ASP 242 A
+ARG 309 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.24 GLU 331 A
+ARG 309 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.08 GLU 333 A
+
+ARG 349 A  10.91   100 %   -3.25  569   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    1.01 TYR 344 A
+ARG 349 A                                            0.00 XXX   0 X    0.00 XXX   0 X    0.64 H7D   C H
+
+N+    4 A   7.70     0 %   -0.30  233   0.00    0    0.00 XXX   0 X    0.00 XXX   0 X    0.00 XXX   0 X
+
+H7D   N H   9.16    91 %   -2.16  536   0.00    0    0.00 XXX   0 X    0.81 ALA 318 A    0.00 GLU  61 A
+H7D   N H                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.99 LYS  67 A
+H7D   N H                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.38 LYS 315 A
+H7D   N H                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.17 ARG 349 A
+H7D   N H                                            0.00 XXX   0 X    0.00 XXX   0 X    2.03 H7D   C H
+
+H7D   C H  -0.75   100 %    2.98  584   0.00    0   -0.85 SER  64 A   -0.42 SER  64 A   -1.00 LYS  67 A
+H7D   C H                                           -0.54 H7D  O2 H   -1.45 ALA 318 A   -1.30 LYS 315 A
+H7D   C H                                            0.00 XXX   0 X    0.00 XXX   0 X   -0.64 ARG 349 A
+H7D   C H                                            0.00 XXX   0 X    0.00 XXX   0 X   -2.03 H7D   N H
+
+Coupled residues (marked *) were detected.Please rerun PropKa with the --display-coupled-residues 
+or -d option for detailed information.
+
+2025-05-23 16:17:15,816 INFO:output.py:227:print_pka_section:pKa summary:
+--------------------------------------------------------------------------------------------------------
+SUMMARY OF THIS PREDICTION
+       Group      pKa  model-pKa   ligand atom-type
+   ASP  10 A     3.42       3.80                      
+   ASP  47 A     3.36       3.80                      
+   ASP  76 A     4.47       3.80                      
+   ASP  87 A     1.46       3.80                      
+   ASP 123 A     3.86       3.80                      
+   ASP 130 A     2.64       3.80                      
+   ASP 217 A     4.13       3.80                      
+   ASP 229 A     5.03       3.80                      
+   ASP 242 A     3.97       3.80                      
+   ASP 264 A     3.90       3.80                      
+   ASP 275 A     3.27       3.80                      
+   ASP 281 A     4.01       3.80                      
+   ASP 288 A     3.17       3.80                      
+   ASP 351 A     4.59       3.80                      
+   GLU  21 A     4.67       4.50                      
+   GLU  61 A     4.92       4.50                      
+   GLU  82 A     3.36       4.50                      
+   GLU  95 A     4.17       4.50                      
+   GLU 124 A     4.62       4.50                      
+   GLU 171 A     5.27       4.50                      
+   GLU 195 A     4.53       4.50                      
+   GLU 196 A     4.72       4.50                      
+   GLU 205 A     4.47       4.50                      
+   GLU 219 A     6.99       4.50                      
+   GLU 228 A     4.47       4.50                      
+   GLU 245 A     5.95       4.50                      
+   GLU 272 A     3.59       4.50                      
+   GLU 331 A     4.41       4.50                      
+   GLU 333 A     4.37       4.50                      
+   C-  361 A     3.25       3.20                      
+   HIS  13 A     5.93       6.50                      
+   HIS 108 A     4.48       6.50                      
+   HIS 186 A     6.55       6.50                      
+   HIS 210 A     5.38       6.50                      
+   HIS 314 A     4.15       6.50                      
+   TYR  34 A    10.32      10.00                      
+   TYR  39 A    10.20      10.00                      
+   TYR  40 A    12.06      10.00                      
+   TYR  45 A    10.17      10.00                      
+   TYR  92 A    12.44      10.00                      
+   TYR 112 A    13.94      10.00                      
+   TYR 135 A    13.98      10.00                      
+   TYR 150 A    17.13      10.00                      
+   TYR 199 A    14.67      10.00                      
+   TYR 203 A    10.94      10.00                      
+   TYR 221 A    12.09      10.00                      
+   TYR 259 A    12.54      10.00                      
+   TYR 266 A    10.84      10.00                      
+   TYR 325 A    14.05      10.00                      
+   TYR 344 A    12.53      10.00                      
+   LYS  24 A    10.43      10.50                      
+   LYS  37 A    10.61      10.50                      
+   LYS  50 A    10.56      10.50                      
+   LYS  51 A    10.40      10.50                      
+   LYS  67 A     6.27      10.50                      
+   LYS  84 A    11.40      10.50                      
+   LYS  91 A    10.57      10.50                      
+   LYS  99 A    10.46      10.50                      
+   LYS 126 A    10.66      10.50                      
+   LYS 164 A     9.97      10.50                      
+   LYS 183 A    10.27      10.50                      
+   LYS 197 A    10.50      10.50                      
+   LYS 207 A    10.34      10.50                      
+   LYS 224 A     9.11      10.50                      
+   LYS 239 A     9.03      10.50                      
+   LYS 246 A    10.45      10.50                      
+   LYS 290 A    10.66      10.50                      
+   LYS 299 A    10.41      10.50                      
+   LYS 315 A     9.10      10.50                      
+   LYS 332 A    10.59      10.50                      
+   LYS 342 A     9.92      10.50                      
+   ARG  14 A    12.60      12.50                      
+   ARG  80 A    12.86      12.50                      
+   ARG 133 A    12.74      12.50                      
+   ARG 148 A    12.47      12.50                      
+   ARG 177 A    13.67      12.50                      
+   ARG 204 A    12.44      12.50                      
+   ARG 232 A    12.07      12.50                      
+   ARG 258 A    12.13      12.50                      
+   ARG 296 A    12.20      12.50                      
+   ARG 309 A    12.39      12.50                      
+   ARG 349 A    10.91      12.50                      
+   N+    4 A     7.70       8.00                      
+   H7D   N H     9.16      10.00                N32   
+   H7D   C H    -0.75       4.50                OCO   
+
+2025-05-23 16:17:15,840 INFO:main.py:648:non_trivial:PROPKA information:
+--------------------------------------------------------------------------------------------------------
+Free energy of   folding (kcal/mol) as a function of pH (using neutral reference)
+  0.00     53.39
+  1.00     51.94
+  2.00     49.73
+  3.00     46.24
+  4.00     42.60
+  5.00     42.02
+  6.00     41.33
+  7.00     39.18
+  8.00     36.44
+  9.00     33.15
+ 10.00     31.83
+ 11.00     39.51
+ 12.00     50.67
+ 13.00     59.73
+ 14.00     66.40
+
+The pH of optimum stability is  9.7 for which the free energy is   31.5 kcal/mol at 298K
+Could not determine pH values where the free energy is within 80 % of minimum
+Could not determine the pH-range where the free energy is negative
+
+
+Protein charge of folded and unfolded state as a function of pH
+    pH  unfolded  folded
+  0.00     40.00   39.11
+  0.10     40.00   39.07
+  0.20     39.99   39.04
+  0.30     39.99   39.00
+  0.40     39.99   38.97
+  0.50     39.99   38.93
+  0.60     39.99   38.90
+  0.70     39.98   38.85
+  0.80     39.98   38.81
+  0.90     39.97   38.75
+  1.00     39.97   38.70
+  1.10     39.96   38.63
+  1.20     39.95   38.55
+  1.30     39.93   38.47
+  1.40     39.92   38.38
+  1.50     39.89   38.28
+  1.60     39.87   38.17
+  1.70     39.83   38.05
+  1.80     39.79   37.93
+  1.90     39.74   37.78
+  2.00     39.67   37.62
+  2.10     39.59   37.45
+  2.20     39.49   37.24
+  2.30     39.36   37.01
+  2.40     39.20   36.75
+  2.50     39.01   36.44
+  2.60     38.77   36.09
+  2.70     38.48   35.70
+  2.80     38.13   35.24
+  2.90     37.71   34.73
+  3.00     37.21   34.16
+  3.10     36.61   33.52
+  3.20     35.92   32.81
+  3.30     35.13   32.05
+  3.40     34.22   31.22
+  3.50     33.20   30.33
+  3.60     32.07   29.38
+  3.70     30.85   28.38
+  3.80     29.53   27.32
+  3.90     28.14   26.22
+  4.00     26.69   25.08
+  4.10     25.21   23.91
+  4.20     23.71   22.71
+  4.30     22.22   21.49
+  4.40     20.75   20.28
+  4.50     19.33   19.07
+  4.60     17.97   17.90
+  4.70     16.71   16.76
+  4.80     15.54   15.67
+  4.90     14.48   14.64
+  5.00     13.54   13.67
+  5.10     12.70   12.77
+  5.20     11.97   11.93
+  5.30     11.33   11.16
+  5.40     10.77   10.45
+  5.50     10.27    9.79
+  5.60      9.84    9.18
+  5.70      9.44    8.61
+  5.80      9.07    8.08
+  5.90      8.71    7.58
+  6.00      8.37    7.10
+  6.10      8.02    6.65
+  6.20      7.68    6.22
+  6.30      7.34    5.81
+  6.40      6.99    5.41
+  6.50      6.65    5.03
+  6.60      6.31    4.67
+  6.70      5.99    4.32
+  6.80      5.69    3.99
+  6.90      5.41    3.68
+  7.00      5.15    3.38
+  7.10      4.91    3.10
+  7.20      4.69    2.84
+  7.30      4.50    2.59
+  7.40      4.32    2.36
+  7.50      4.16    2.14
+  7.60      4.00    1.94
+  7.70      3.86    1.74
+  7.80      3.71    1.55
+  7.90      3.57    1.36
+  8.00      3.42    1.18
+  8.10      3.27    0.99
+  8.20      3.12    0.79
+  8.30      2.95    0.59
+  8.40      2.77    0.36
+  8.50      2.56    0.12
+  8.60      2.33   -0.15
+  8.70      2.06   -0.45
+  8.80      1.74   -0.79
+  8.90      1.36   -1.16
+  9.00      0.91   -1.57
+  9.10      0.38   -2.03
+  9.20     -0.26   -2.52
+  9.30     -1.03   -3.07
+  9.40     -1.92   -3.66
+  9.50     -2.97   -4.31
+  9.60     -4.17   -5.02
+  9.70     -5.54   -5.80
+  9.80     -7.07   -6.66
+  9.90     -8.75   -7.59
+ 10.00    -10.57   -8.60
+ 10.10    -12.49   -9.69
+ 10.20    -14.48  -10.84
+ 10.30    -16.51  -12.05
+ 10.40    -18.54  -13.30
+ 10.50    -20.52  -14.57
+ 10.60    -22.42  -15.84
+ 10.70    -24.22  -17.09
+ 10.80    -25.88  -18.30
+ 10.90    -27.39  -19.45
+ 11.00    -28.75  -20.55
+ 11.10    -29.95  -21.59
+ 11.20    -31.02  -22.56
+ 11.30    -31.97  -23.48
+ 11.40    -32.81  -24.36
+ 11.50    -33.57  -25.20
+ 11.60    -34.27  -26.02
+ 11.70    -34.93  -26.83
+ 11.80    -35.56  -27.64
+ 11.90    -36.19  -28.46
+ 12.00    -36.83  -29.30
+ 12.10    -37.48  -30.15
+ 12.20    -38.15  -31.02
+ 12.30    -38.84  -31.89
+ 12.40    -39.54  -32.76
+ 12.50    -40.24  -33.61
+ 12.60    -40.92  -34.44
+ 12.70    -41.58  -35.24
+ 12.80    -42.20  -36.00
+ 12.90    -42.76  -36.71
+ 13.00    -43.27  -37.37
+ 13.10    -43.73  -37.98
+ 13.20    -44.12  -38.54
+ 13.30    -44.45  -39.06
+ 13.40    -44.74  -39.55
+ 13.50    -44.97  -40.01
+ 13.60    -45.17  -40.44
+ 13.70    -45.33  -40.85
+ 13.80    -45.46  -41.24
+ 13.90    -45.57  -41.61
+ 14.00    -45.65  -41.97
+The pI is  8.54 (folded) and  9.16 (unfolded)
+
+--------------------------------------------------------------------------------------------------------
+2025-05-23 16:17:15,841 INFO:biomolecule.py:797:apply_pka_values:Applying pKa values at a pH of 7.00:
+2025-05-23 16:17:15,842 WARNING:biomolecule.py:931:apply_pka_values:PDB2PQR could not identify the following residues and residue numbers as returned by PROPKA or PDB2PKA
+2025-05-23 16:17:15,842 WARNING:biomolecule.py:934:apply_pka_values:             H7D 7 H
+2025-05-23 16:17:15,842 INFO:main.py:661:non_trivial:Adding hydrogens to biomolecule.
+2025-05-23 16:17:16,048 INFO:main.py:664:non_trivial:Debumping biomolecule (again).
+2025-05-23 16:17:16,345 INFO:main.py:666:non_trivial:Optimizing hydrogen bonds
+2025-05-23 16:17:16,791 INFO:main.py:678:non_trivial:Applying force field to biomolecule states.
+2025-05-23 16:17:16,794 INFO:main.py:725:non_trivial:Regenerating headers.
+2025-05-23 16:17:16,795 INFO:main.py:750:non_trivial:Regenerating PDB lines.
+2025-05-23 16:17:16,816 WARNING:main.py:326:print_pqr:Ignoring 2179 header lines in output.
+2025-05-23 16:17:16,817 WARNING:main.py:330:print_pqr:Ignoring 43 missing lines in output.
+2025-05-23 16:17:16,843 WARNING:main.py:369:print_pdb:Ignoring 2179 header lines in output.
+2025-05-23 16:17:16,843 WARNING:main.py:373:print_pdb:Ignoring 43 missing lines in output.

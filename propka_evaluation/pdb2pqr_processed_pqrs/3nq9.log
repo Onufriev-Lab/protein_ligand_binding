@@ -1,0 +1,81 @@
+2025-05-23 16:12:19,958 INFO:main.py:246:print_splash_screen:PDB2PQR v3.7.1: biomolecular structure conversion software.
+2025-05-23 16:12:19,958 INFO:main.py:248:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2025-05-23 16:12:19,959 INFO:main.py:248:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2025-05-23 16:12:19,959 INFO:main.py:770:main_driver:Checking and transforming input arguments.
+2025-05-23 16:12:19,959 INFO:main.py:774:main_driver:Loading topology files.
+2025-05-23 16:12:20,001 INFO:main.py:776:main_driver:Loading molecule: ./ligand_pdb_combined_for_pdb2pqr/3nq9.pdb
+2025-05-23 16:12:20,007 INFO:main.py:779:main_driver:Dropping water from structure.
+2025-05-23 16:12:20,008 INFO:main.py:781:main_driver:Setting up molecule.
+2025-05-23 16:12:20,013 INFO:main.py:423:setup_molecule:Created biomolecule object with 162 residues and 1305 atoms.
+2025-05-23 16:12:20,013 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CA in MET A 7.
+2025-05-23 16:12:20,013 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CB in MET A 7.
+2025-05-23 16:12:20,013 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CG in MET A 7.
+2025-05-23 16:12:20,013 WARNING:main.py:433:setup_molecule:Multiple occupancies found: SD in MET A 7.
+2025-05-23 16:12:20,013 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CE in MET A 7.
+2025-05-23 16:12:20,013 WARNING:main.py:439:setup_molecule:Multiple occupancies found in MET A 7. At least one of the instances is being ignored.
+2025-05-23 16:12:20,013 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CA in THR A 18.
+2025-05-23 16:12:20,014 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CB in THR A 18.
+2025-05-23 16:12:20,014 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CG2 in THR A 18.
+2025-05-23 16:12:20,014 WARNING:main.py:433:setup_molecule:Multiple occupancies found: OG1 in THR A 18.
+2025-05-23 16:12:20,014 WARNING:main.py:439:setup_molecule:Multiple occupancies found in THR A 18. At least one of the instances is being ignored.
+2025-05-23 16:12:20,014 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CA in ASP A 33.
+2025-05-23 16:12:20,014 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CB in ASP A 33.
+2025-05-23 16:12:20,014 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CG in ASP A 33.
+2025-05-23 16:12:20,014 WARNING:main.py:433:setup_molecule:Multiple occupancies found: OD1 in ASP A 33.
+2025-05-23 16:12:20,014 WARNING:main.py:433:setup_molecule:Multiple occupancies found: OD2 in ASP A 33.
+2025-05-23 16:12:20,014 WARNING:main.py:439:setup_molecule:Multiple occupancies found in ASP A 33. At least one of the instances is being ignored.
+2025-05-23 16:12:20,014 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CA in GLU A 44.
+2025-05-23 16:12:20,014 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CB in GLU A 44.
+2025-05-23 16:12:20,015 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CG in GLU A 44.
+2025-05-23 16:12:20,015 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CD in GLU A 44.
+2025-05-23 16:12:20,015 WARNING:main.py:433:setup_molecule:Multiple occupancies found: OE1 in GLU A 44.
+2025-05-23 16:12:20,015 WARNING:main.py:433:setup_molecule:Multiple occupancies found: OE2 in GLU A 44.
+2025-05-23 16:12:20,015 WARNING:main.py:439:setup_molecule:Multiple occupancies found in GLU A 44. At least one of the instances is being ignored.
+2025-05-23 16:12:20,015 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CA in MET A 107.
+2025-05-23 16:12:20,015 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CB in MET A 107.
+2025-05-23 16:12:20,015 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CG in MET A 107.
+2025-05-23 16:12:20,015 WARNING:main.py:433:setup_molecule:Multiple occupancies found: SD in MET A 107.
+2025-05-23 16:12:20,015 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CE in MET A 107.
+2025-05-23 16:12:20,016 WARNING:main.py:439:setup_molecule:Multiple occupancies found in MET A 107. At least one of the instances is being ignored.
+2025-05-23 16:12:20,016 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CA in ASN A 109.
+2025-05-23 16:12:20,016 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CB in ASN A 109.
+2025-05-23 16:12:20,016 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CG in ASN A 109.
+2025-05-23 16:12:20,016 WARNING:main.py:433:setup_molecule:Multiple occupancies found: ND2 in ASN A 109.
+2025-05-23 16:12:20,016 WARNING:main.py:433:setup_molecule:Multiple occupancies found: OD1 in ASN A 109.
+2025-05-23 16:12:20,016 WARNING:main.py:439:setup_molecule:Multiple occupancies found in ASN A 109. At least one of the instances is being ignored.
+2025-05-23 16:12:20,016 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CA in GLN A 115.
+2025-05-23 16:12:20,017 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CB in GLN A 115.
+2025-05-23 16:12:20,017 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CG in GLN A 115.
+2025-05-23 16:12:20,017 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CD in GLN A 115.
+2025-05-23 16:12:20,017 WARNING:main.py:433:setup_molecule:Multiple occupancies found: NE2 in GLN A 115.
+2025-05-23 16:12:20,017 WARNING:main.py:433:setup_molecule:Multiple occupancies found: OE1 in GLN A 115.
+2025-05-23 16:12:20,017 WARNING:main.py:439:setup_molecule:Multiple occupancies found in GLN A 115. At least one of the instances is being ignored.
+2025-05-23 16:12:20,017 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CA in LYS A 138.
+2025-05-23 16:12:20,017 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CB in LYS A 138.
+2025-05-23 16:12:20,017 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CG in LYS A 138.
+2025-05-23 16:12:20,017 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CD in LYS A 138.
+2025-05-23 16:12:20,017 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CE in LYS A 138.
+2025-05-23 16:12:20,017 WARNING:main.py:433:setup_molecule:Multiple occupancies found: NZ in LYS A 138.
+2025-05-23 16:12:20,017 WARNING:main.py:439:setup_molecule:Multiple occupancies found in LYS A 138. At least one of the instances is being ignored.
+2025-05-23 16:12:20,017 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CA in SER A 150.
+2025-05-23 16:12:20,018 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CB in SER A 150.
+2025-05-23 16:12:20,018 WARNING:main.py:433:setup_molecule:Multiple occupancies found: OG in SER A 150.
+2025-05-23 16:12:20,018 WARNING:main.py:439:setup_molecule:Multiple occupancies found in SER A 150. At least one of the instances is being ignored.
+2025-05-23 16:12:20,018 WARNING:main.py:433:setup_molecule:Multiple occupancies found: N in GLU A 158.
+2025-05-23 16:12:20,018 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CA in GLU A 158.
+2025-05-23 16:12:20,018 WARNING:main.py:433:setup_molecule:Multiple occupancies found: C in GLU A 158.
+2025-05-23 16:12:20,018 WARNING:main.py:433:setup_molecule:Multiple occupancies found: O in GLU A 158.
+2025-05-23 16:12:20,018 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CB in GLU A 158.
+2025-05-23 16:12:20,018 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CG in GLU A 158.
+2025-05-23 16:12:20,018 WARNING:main.py:433:setup_molecule:Multiple occupancies found: CD in GLU A 158.
+2025-05-23 16:12:20,019 WARNING:main.py:433:setup_molecule:Multiple occupancies found: OE1 in GLU A 158.
+2025-05-23 16:12:20,019 WARNING:main.py:433:setup_molecule:Multiple occupancies found: OE2 in GLU A 158.
+2025-05-23 16:12:20,019 WARNING:main.py:439:setup_molecule:Multiple occupancies found in GLU A 158. At least one of the instances is being ignored.
+2025-05-23 16:12:20,019 INFO:main.py:785:main_driver:Setting termini states for biomolecule chains.
+2025-05-23 16:12:20,023 INFO:main.py:616:non_trivial:Loading forcefield.
+2025-05-23 16:12:20,031 INFO:main.py:620:non_trivial:Loading hydrogen topology definitions.
+2025-05-23 16:12:20,032 INFO:main.py:474:is_repairable:This biomolecule is clean.  No repair needed.
+2025-05-23 16:12:20,032 INFO:main.py:635:non_trivial:Updating disulfide bridges.
+2025-05-23 16:12:20,033 INFO:main.py:638:non_trivial:Debumping biomolecule.
+2025-05-23 16:12:20,062 CRITICAL:main.py:811:main_driver:Unable to debump biomolecule. Biomolecular structure is incomplete:  Found gap in biomolecule structure for atom ATOM      1  C1  LEU     1      -3.183  -3.262 -17.078  0.0000 0.0000
+2025-05-23 16:12:20,062 CRITICAL:main.py:812:main_driver:Giving up.

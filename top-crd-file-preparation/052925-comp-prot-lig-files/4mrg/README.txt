@@ -1,0 +1,1 @@
+4mrg has HIS 16 protonated without the ligand (HIP), and deprotonated with the ligand HIE specifically.  Identical in sequence to 4mre.

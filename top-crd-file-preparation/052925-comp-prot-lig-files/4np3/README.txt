@@ -1,0 +1,1 @@
+4np3 has a protonated HIS 16 for the free protein whereas it has an unprotonated HIS 16 for the ligand bound protein.  I went back and checked 4mre (original protein in this set), and it's pka does not change between protein only and protein with ligand (pka 7.0 for each).  Identical in sequence to 4mre.

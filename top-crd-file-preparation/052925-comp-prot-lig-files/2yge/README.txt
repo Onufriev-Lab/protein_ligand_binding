@@ -1,0 +1,1 @@
+2yge does not change protonation state on ligand binding.  (compared to 2iwx) ... K->R mutation. K->N mutation.  6 residue tail added to C-terminus.

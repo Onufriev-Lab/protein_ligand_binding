@@ -1,0 +1,1 @@
+For no ligand 4div, HIS 53 (post-H++ numbering) is unprotontated (HID), whereas with ligand, HIS 53 is protonated.  26 extra residues (split between the C and N terminal end) compared to 4gid.

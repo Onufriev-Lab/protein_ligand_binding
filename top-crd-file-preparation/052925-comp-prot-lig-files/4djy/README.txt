@@ -1,0 +1,1 @@
+Does not change protonation state on ligand binding.  26 residues (added between N and C terminal ends) compared to 4gid.

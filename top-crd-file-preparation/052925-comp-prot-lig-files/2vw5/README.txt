@@ -1,0 +1,1 @@
+2vw5 does not change protonation state on ligand binding.  Sequence is identical to 2iwx.

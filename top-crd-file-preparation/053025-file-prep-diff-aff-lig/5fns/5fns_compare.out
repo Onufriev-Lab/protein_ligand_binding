@@ -1,0 +1,196 @@
+Line 4327: ResName mismatch
+File 1: ATOM   4325  O   WAT   290      36.074  19.058  65.629  1.00  0.00           O
+File 2: ATOM   4325  O27 XYY   290      38.763  43.903  28.714  1.00  0.00           O
+
+Line 4328: ResName mismatch
+File 1: ATOM   4326  H1  WAT   290      35.739  19.736  65.193  1.00  0.00           H
+File 2: ATOM   4326  S26 XYY   290      38.789  44.239  30.102  1.00  0.00           S
+
+Line 4329: ResName mismatch
+File 1: ATOM   4327  H2  WAT   290      36.586  18.669  65.040  1.00  0.00           H
+File 2: ATOM   4327  O28 XYY   290      37.675  43.882  30.921  1.00  0.00           O
+
+Line 4330: ResName mismatch
+File 1: ATOM   4329  O   WAT   291      36.247  16.196  64.474  1.00  0.00           O
+File 2: ATOM   4328  C29 XYY   290      39.051  45.973  30.246  1.00  0.00           C
+
+Line 4331: ResName mismatch
+File 1: ATOM   4330  H1  WAT   291      36.662  15.864  63.782  1.00  0.00           H
+File 2: ATOM   4329  H17 XYY   290      39.883  46.259  29.637  1.00  0.00           H
+
+Line 4332: ResName mismatch
+File 1: ATOM   4331  H2  WAT   291      35.416  15.963  64.346  1.00  0.00           H
+File 2: ATOM   4330  H18 XYY   290      39.255  46.219  31.267  1.00  0.00           H
+
+Line 4333: ResName mismatch
+File 1: ATOM   4333  O   WAT   292      38.940  12.447  63.660  1.00  0.00           O
+File 2: ATOM   4331  H19 XYY   290      38.176  46.495  29.921  1.00  0.00           H
+
+Line 4334: ResName mismatch
+File 1: ATOM   4334  H1  WAT   292      38.858  12.517  64.525  1.00  0.00           H
+File 2: ATOM   4332  N2  XYY   290      40.125  43.543  30.743  1.00  0.00           N
+
+Line 4335: ResName mismatch
+File 1: ATOM   4335  H2  WAT   292      39.578  13.010  63.468  1.00  0.00           H
+File 2: ATOM   4333  C1  XYY   290      41.368  43.614  29.961  1.00  0.00           C
+
+Line 4336: ResName mismatch
+File 1: ATOM   4337  O   WAT   293      42.135  15.103  66.193  1.00  0.00           O
+File 2: ATOM   4334  H   XYY   290      42.154  43.122  30.495  1.00  0.00           H
+
+Line 4337: ResName mismatch
+File 1: ATOM   4338  H1  WAT   293      41.756  14.316  66.186  1.00  0.00           H
+File 2: ATOM   4335  H1  XYY   290      41.632  44.638  29.802  1.00  0.00           H
+
+Line 4338: ResName mismatch
+File 1: ATOM   4339  H2  WAT   293      41.472  15.651  66.051  1.00  0.00           H
+File 2: ATOM   4336  H2  XYY   290      41.224  43.132  29.017  1.00  0.00           H
+
+Line 4339: ResName mismatch
+File 1: ATOM   4341  O   WAT   294      37.482  15.685  62.012  1.00  0.00           O
+File 2: ATOM   4337  C3  XYY   290      40.317  43.624  32.197  1.00  0.00           C
+
+Line 4340: ResName mismatch
+File 1: ATOM   4342  H1  WAT   294      38.249  15.745  61.603  1.00  0.00           H
+File 2: ATOM   4338  H3  XYY   290      40.870  44.513  32.418  1.00  0.00           H
+
+Line 4341: ResName mismatch
+File 1: ATOM   4343  H2  WAT   294      37.035  15.113  61.528  1.00  0.00           H
+File 2: ATOM   4339  H4  XYY   290      39.345  43.633  32.645  1.00  0.00           H
+
+Line 4342: ResName mismatch
+File 1: ATOM   4345  O   WAT   295      40.381  17.347  66.529  1.00  0.00           O
+File 2: ATOM   4340  C4  XYY   290      41.063  42.439  32.769  1.00  0.00           C
+
+Line 4343: ResName mismatch
+File 1: ATOM   4346  H1  WAT   295      40.463  18.154  66.205  1.00  0.00           H
+File 2: ATOM   4341  C9  XYY   290      40.421  41.233  33.037  1.00  0.00           C
+
+Line 4344: ResName mismatch
+File 1: ATOM   4347  H2  WAT   295      40.866  17.367  67.253  1.00  0.00           H
+File 2: ATOM   4342 Cl1  XYY   290      38.727  41.046  32.723  1.00  0.00          CL
+
+Line 4345: ResName mismatch
+File 1: ATOM   4349  O   WAT   296      37.876  15.921  66.862  1.00  0.00           O
+File 2: ATOM   4343  C8  XYY   290      41.118  40.159  33.561  1.00  0.00           C
+
+Line 4346: ResName mismatch
+File 1: ATOM   4350  H1  WAT   296      38.600  16.387  66.719  1.00  0.00           H
+File 2: ATOM   4344  C7  XYY   290      42.468  40.275  33.822  1.00  0.00           C
+
+Line 4347: ResName mismatch
+File 1: ATOM   4351  H2  WAT   296      37.436  15.988  66.112  1.00  0.00           H
+File 2: ATOM   4345  H6  XYY   290      42.983  39.470  34.213  1.00  0.00           H
+
+Line 4348: ResName mismatch
+File 1: ATOM   4353  O   WAT   297      38.137  19.983  67.022  1.00  0.00           O
+File 2: ATOM   4346  H7  XYY   290      40.628  39.272  33.755  1.00  0.00           H
+
+Line 4349: ResName mismatch
+File 1: ATOM   4354  H1  WAT   297      37.419  19.809  66.557  1.00  0.00           H
+File 2: ATOM   4347  C5  XYY   290      42.425  42.533  33.040  1.00  0.00           C
+
+Line 4350: ResName mismatch
+File 1: ATOM   4355  H2  WAT   297      38.787  19.748  66.490  1.00  0.00           H
+File 2: ATOM   4348  H5  XYY   290      42.917  43.420  32.847  1.00  0.00           H
+
+Line 4351: ResName mismatch
+File 1: ATOM   4357  O   WAT   298      44.519  14.953  67.588  1.00  0.00           O
+File 2: ATOM   4349  C6  XYY   290      43.142  41.463  33.566  1.00  0.00           C
+
+Line 4352: ResName mismatch
+File 1: ATOM   4358  H1  WAT   298      44.902  15.702  67.818  1.00  0.00           H
+File 2: ATOM   4350  C11 XYY   290      44.631  41.551  33.868  1.00  0.00           C
+
+Line 4353: ResName mismatch
+File 1: ATOM   4359  H2  WAT   298      43.723  15.200  67.329  1.00  0.00           H
+File 2: ATOM   4351  C12 XYY   290      44.899  42.221  35.212  1.00  0.00           C
+
+Line 4354: ResName mismatch
+File 1: ATOM   4361  O   WAT   299      41.594  34.154  70.200  1.00  0.00           O
+File 2: ATOM   4352  C13 XYY   290      46.351  42.128  35.658  1.00  0.00           C
+
+Line 4355: ResName mismatch
+File 1: ATOM   4362  H1  WAT   299      40.843  33.776  69.972  1.00  0.00           H
+File 2: ATOM   4353  O14 XYY   290      46.878  43.173  36.084  1.00  0.00           O
+
+Line 4356: ResName mismatch
+File 1: ATOM   4363  H2  WAT   299      42.043  34.186  69.452  1.00  0.00           H
+File 2: ATOM   4354  O15 XYY   290      46.939  41.026  35.578  1.00  0.00           O
+
+Line 4357: ResName mismatch
+File 1: ATOM   4365  O   WAT   300      47.047  34.577  65.629  1.00  0.00           O
+File 2: ATOM   4355  H9  XYY   290      44.634  43.255  35.133  1.00  0.00           H
+
+Line 4358: ResName mismatch
+File 1: ATOM   4366  H1  WAT   300      46.712  35.254  65.193  1.00  0.00           H
+File 2: ATOM   4356  H10 XYY   290      44.312  41.706  35.944  1.00  0.00           H
+
+Line 4359: ResName mismatch
+File 1: ATOM   4367  H2  WAT   300      47.560  34.187  65.040  1.00  0.00           H
+File 2: ATOM   4357  H8  XYY   290      45.017  40.559  33.979  1.00  0.00           H
+
+Line 4360: ResName mismatch
+File 1: ATOM   4369  O   WAT   301      43.173  34.166  72.466  1.00  0.00           O
+File 2: ATOM   4358  C16 XYY   290      45.394  42.153  32.694  1.00  0.00           C
+
+Line 4361: ResName mismatch
+File 1: ATOM   4370  H1  WAT   301      43.274  33.356  72.776  1.00  0.00           H
+File 2: ATOM   4359  C17 XYY   290      46.028  43.400  32.758  1.00  0.00           C
+
+Line 4362: ResName mismatch
+File 1: ATOM   4371  H2  WAT   301      42.577  34.072  71.836  1.00  0.00           H
+File 2: ATOM   4360  H11 XYY   290      45.985  43.946  33.632  1.00  0.00           H
+
+Line 4363: ResName mismatch
+File 1: ATOM   4373  O   WAT   302      51.832  28.106  67.953  1.00  0.00           O
+File 2: ATOM   4361  C18 XYY   290      46.717  43.917  31.664  1.00  0.00           C
+
+Line 4364: ResName mismatch
+File 1: ATOM   4374  H1  WAT   302      51.716  28.856  68.382  1.00  0.00           H
+File 2: ATOM   4362  H12 XYY   290      47.179  44.838  31.730  1.00  0.00           H
+
+Line 4365: ResName mismatch
+File 1: ATOM   4375  H2  WAT   302      52.628  27.848  68.202  1.00  0.00           H
+File 2: ATOM   4363  C19 XYY   290      46.780  43.183  30.471  1.00  0.00           C
+
+Line 4366: ResName mismatch
+File 1: ATOM   4377  O   WAT   303      36.369  30.188  72.091  1.00  0.00           O
+File 2: ATOM   4364  N20 XYY   290      47.351  43.389  29.256  1.00  0.00           N
+
+Line 4367: ResName mismatch
+File 1: ATOM   4378  H1  WAT   303      36.134  29.355  71.985  1.00  0.00           H
+File 2: ATOM   4365  C21 XYY   290      48.131  44.521  28.777  1.00  0.00           C
+
+Line 4368: ResName mismatch
+File 1: ATOM   4379  H2  WAT   303      36.508  30.469  71.278  1.00  0.00           H
+File 2: ATOM   4366  H13 XYY   290      48.219  45.248  29.557  1.00  0.00           H
+
+Line 4369: ResName mismatch
+File 1: ATOM   4381  O   WAT   304      43.715  32.095  69.240  1.00  0.00           O
+File 2: ATOM   4367  H14 XYY   290      47.640  44.961  27.933  1.00  0.00           H
+
+Line 4370: ResName mismatch
+File 1: ATOM   4382  H1  WAT   304      44.037  32.636  68.636  1.00  0.00           H
+File 2: ATOM   4368  H15 XYY   290      49.105  44.186  28.489  1.00  0.00           H
+
+Line 4371: ResName mismatch
+File 1: ATOM   4383  H2  WAT   304      44.362  31.525  69.372  1.00  0.00           H
+File 2: ATOM   4369  N22 XYY   290      47.103  42.333  28.437  1.00  0.00           N
+
+Line 4372: ResName mismatch
+File 1: ATOM   4385  O   WAT   305      45.765  24.097  69.323  1.00  0.00           O
+File 2: ATOM   4370  N23 XYY   290      46.383  41.464  29.126  1.00  0.00           N
+
+Line 4373: ResName mismatch
+File 1: ATOM   4386  H1  WAT   305      46.463  24.275  69.815  1.00  0.00           H
+File 2: ATOM   4371  C24 XYY   290      46.159  41.943  30.382  1.00  0.00           C
+
+Line 4374: ResName mismatch
+File 1: ATOM   4387  H2  WAT   305      46.080  23.574  68.700  1.00  0.00           H
+File 2: ATOM   4372  C25 XYY   290      45.462  41.425  31.499  1.00  0.00           C
+
+Line 4375: ResName mismatch
+File 1: ATOM   4389  O   WAT   306      45.954  30.484  69.311  1.00  0.00           O
+File 2: ATOM   4373  H16 XYY   290      45.001  40.504  31.432  1.00  0.00           H
+

@@ -1,0 +1,1 @@
+No protonation change on ligand binding to 5fns.  A couple 5nfs typos in directory.  The correct files were run.

@@ -1,0 +1,1 @@
+No protonation change on ligand binding to 5fnr.

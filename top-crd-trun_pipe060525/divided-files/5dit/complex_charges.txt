@@ -1,0 +1,24 @@
+Charged residues:
+LYS 2  Charge: 1
+HIE 6  Charge: 0
+LYS 8  Charge: 1
+LYS 10  Charge: 1
+LYS 15  Charge: 1
+LYS 16  Charge: 1
+ASP 18  Charge: -1
+ARG 23  Charge: 1
+LYS 33  Charge: 1
+LYS 38  Charge: 1
+ASP 41  Charge: -1
+LYS 50  Charge: 1
+GLU 52  Charge: -1
+LYS 63  Charge: 1
+GLU 73  Charge: -1
+
+Ligand charge from charge.txt: 1.0
+Total protein charge: 6
+Total complex charge: 7.0
+Number of water molecules from 5dit.top: 3500
+No (waters × 0.15 / 56): 9.3750
+Chloride ions (Cl-): 13.51
+Sodium ions (Na+): 6.51

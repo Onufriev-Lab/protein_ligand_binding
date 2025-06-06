@@ -1,0 +1,20 @@
+Charged residues:
+GLU 2  Charge: -1
+LYS 8  Charge: 1
+ARG 16  Charge: 1
+ARG 24  Charge: 1
+HIP 27  Charge: 1
+ASP 34  Charge: -1
+LYS 41  Charge: 1
+ASP 45  Charge: -1
+LYS 47  Charge: 1
+LYS 53  Charge: 1
+ARG 71  Charge: 1
+
+Ligand charge from charge.txt: -1.0
+Total protein charge: 5
+Total complex charge: 4.0
+Number of water molecules from 6dpz.top: 4374
+No (waters × 0.15 / 56): 11.7161
+Chloride ions (Cl-): 13.89
+Sodium ions (Na+): 9.89

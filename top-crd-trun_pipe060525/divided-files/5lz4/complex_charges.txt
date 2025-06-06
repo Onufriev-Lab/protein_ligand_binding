@@ -1,0 +1,17 @@
+Charged residues:
+HID 25  Charge: 0
+ARG 31  Charge: 1
+ARG 47  Charge: 1
+ARG 50  Charge: 1
+HIE 53  Charge: 0
+ASP 62  Charge: -1
+HIP 78  Charge: 1
+ASP 83  Charge: -1
+
+Ligand charge from charge.txt: 0.0
+Total protein charge: 2
+Total complex charge: 2.0
+Number of water molecules from 5lz4.top: 4860
+No (waters × 0.15 / 56): 13.0179
+Chloride ions (Cl-): 14.06
+Sodium ions (Na+): 12.06

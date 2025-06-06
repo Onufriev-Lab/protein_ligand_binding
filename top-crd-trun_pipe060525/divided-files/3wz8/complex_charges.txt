@@ -1,0 +1,20 @@
+Charged residues:
+ASP 3  Charge: -1
+ASP 6  Charge: -1
+ASH 7  Charge: 0
+ASH 14  Charge: 0
+ASP 16  Charge: -1
+ASP 34  Charge: -1
+GLU 45  Charge: -1
+ASP 46  Charge: -1
+ASP 50  Charge: -1
+ASH 67  Charge: 0
+ASH 92  Charge: 0
+
+Ligand charge from charge.txt: 0.0
+Total protein charge: -7
+Total complex charge: -7.0
+Number of water molecules from 3wz8.top: 4518
+No (waters × 0.15 / 56): 12.1018
+Chloride ions (Cl-): 9.10
+Sodium ions (Na+): 16.10

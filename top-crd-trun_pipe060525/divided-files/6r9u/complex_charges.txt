@@ -1,0 +1,16 @@
+Charged residues:
+HIE 5  Charge: 0
+ARG 6  Charge: 1
+ASP 12  Charge: -1
+HIE 16  Charge: 0
+LYS 22  Charge: 1
+ARG 28  Charge: 1
+HID 48  Charge: 0
+
+Ligand charge from charge.txt: 0.0
+Total protein charge: 2
+Total complex charge: 2.0
+Number of water molecules from 6r9u.top: 3324
+No (waters × 0.15 / 56): 8.9036
+Chloride ions (Cl-): 9.96
+Sodium ions (Na+): 7.96

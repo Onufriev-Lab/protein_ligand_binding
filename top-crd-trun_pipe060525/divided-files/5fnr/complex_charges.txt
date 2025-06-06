@@ -1,0 +1,21 @@
+Charged residues:
+ARG 13  Charge: 1
+ARG 19  Charge: 1
+HIE 28  Charge: 0
+ARG 31  Charge: 1
+ASP 41  Charge: -1
+ARG 45  Charge: 1
+ARG 50  Charge: 1
+ASP 59  Charge: -1
+ASP 62  Charge: -1
+ARG 67  Charge: 1
+ASP 76  Charge: -1
+HID 78  Charge: 0
+
+Ligand charge from charge.txt: -1.0
+Total protein charge: 2
+Total complex charge: 1.0
+Number of water molecules from 5fnr.top: 3303
+No (waters × 0.15 / 56): 8.8473
+Chloride ions (Cl-): 9.36
+Sodium ions (Na+): 8.36

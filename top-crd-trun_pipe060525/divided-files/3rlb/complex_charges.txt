@@ -1,0 +1,14 @@
+Charged residues:
+GLU 14  Charge: -1
+HIP 27  Charge: 1
+GLU 38  Charge: -1
+LYS 46  Charge: 1
+HID 50  Charge: 0
+
+Ligand charge from charge.txt: 0.0
+Total protein charge: 0
+Total complex charge: 0.0
+Number of water molecules from 3rlb.top: 5446
+No (waters × 0.15 / 56): 14.5875
+Chloride ions (Cl-): 14.59
+Sodium ions (Na+): 14.59

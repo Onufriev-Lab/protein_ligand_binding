@@ -1,0 +1,13 @@
+source leaprc.protein.ff19SB
+source leaprc.gaff
+loadamberparams ./divided-files/3p5o/LIGAND.frcmod
+LIG = loadmol2 ./divided-files/3p5o/LIGAND.mol2
+PROT = loadpdb ./divided-files/3p5o/PROTEIN.pdb
+COMPLEX = combine {PROT LIG}
+source leaprc.water.opc
+solvateOct COMPLEX OPCBOX 10
+addions COMPLEX Na+ 10
+addions COMPLEX Cl- 7
+saveamberparm COMPLEX ./divided-files/3p5o/3p5o.top ./divided-files/3p5o/3p5o.crd
+savepdb COMPLEX ./divided-files/3p5o/3p5oti.pdb
+quit

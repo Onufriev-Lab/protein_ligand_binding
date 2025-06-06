@@ -1,0 +1,23 @@
+Charged residues:
+LYS 3  Charge: 1
+ASP 14  Charge: -1
+LYS 30  Charge: 1
+ASP 34  Charge: -1
+LYS 35  Charge: 1
+GLU 44  Charge: -1
+GLU 53  Charge: -1
+ARG 56  Charge: 1
+LYS 72  Charge: 1
+ASP 76  Charge: -1
+ARG 83  Charge: 1
+ARG 91  Charge: 1
+LYS 95  Charge: 1
+GLU 113  Charge: -1
+
+Ligand charge from charge.txt: 1.0
+Total protein charge: 2
+Total complex charge: 3.0
+Number of water molecules from 4gid.top: 5750
+No (waters × 0.15 / 56): 15.4018
+Chloride ions (Cl-): 16.97
+Sodium ions (Na+): 13.97

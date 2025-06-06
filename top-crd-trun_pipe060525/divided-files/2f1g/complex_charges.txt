@@ -1,0 +1,16 @@
+Charged residues:
+GLU 18  Charge: -1
+LYS 19  Charge: 1
+LYS 23  Charge: 1
+GLU 38  Charge: -1
+ASP 48  Charge: -1
+ARG 50  Charge: 1
+HIE 61  Charge: 0
+
+Ligand charge from charge.txt: 0.0
+Total protein charge: 0
+Total complex charge: 0.0
+Number of water molecules from 2f1g.top: 4161
+No (waters × 0.15 / 56): 11.1455
+Chloride ions (Cl-): 11.15
+Sodium ions (Na+): 11.15

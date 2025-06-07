@@ -1,0 +1,261 @@
+
+<html>
+
+
+<head profile="http://www.w3.org/2005/10/profile">
+	<title>H++  (web-based computational prediction of protonation states and pK of ionizable groups in macromolecules)</title>
+	
+	<link rel="icon" type="image/gif" href="favicon.gif">
+	<link rel="stylesheet" href="stylesheet.css?ver=647" type="text/css" >
+        <meta name="Keywords" content="pK, protonation, prediction, computation, web, web-based, automatic, biomolecule, protein, ligand, electrostatic, 
+first priciple">
+<script type="text/javascript" src="fader.js">
+
+</script>
+</head>
+
+
+<body>
+
+
+<img class = "titlebar" src = "images/title.H++.jpg" border = 0>
+<img class = "loginbar" src = "images/login_bg.jpg" border = 0>
+<img class = "moleculebar" src = "images/login_bg.jpg" border = 0>
+<img class = "vtlogo" src = "images/vtlogo.gif" border = 0>
+<!----- <img class = "cslogo" src = "images/cslogo.gif" border = 0> --->
+<!----- <img class = "stats" src = "images/stats.svg" border = 0>   --->
+
+<div class = "mainmenu">
+</div>
+
+<div class = "loginmenu">
+
+		
+	LOGIN:<br><br>
+	<form name = "login" action = "login2.php" method = "post">
+	User Name:<br>  <input name = username type = "input" maxlength = 10 size = 15 class = "form" required><br><br>
+	Password:<br>  <input name = pass type = "password" maxlength = 10 size = 15 class = "form" required><br><br>
+	<input name = submit type = submit value = "Login" class = "loginbuttons">&nbsp;&nbsp;&nbsp;
+        </form>
+
+        <form name = "register" action = "register.php">
+        <input name = action type = submit value = "Register" class = "registerbuttons">
+
+	</form>
+
+	
+	
+
+</div>
+
+<div class = "moleculemenu">
+	<b>
+
+	<a href = "index.php"><img src = "images/menu/home.jpg" border = 0 class = "menuitem"></a> 
+        	<a href = "contact.php"><img src = "images/menu/contactus.jpg" border = 0 class = "menuitem"></a>
+	<a href = "faq.php"><img src = "images/menu/faq.jpg" border = 0 class = "menuitem"></a>
+	<a href = "step1.php"><img src = "images/menu/examples.jpg" border = 0 class = "menuitem"></a>
+	<a href = "credits.php"><img src = "images/menu/credits.jpg" border = 0 class = "menuitem"></a>
+
+	</b>
+
+
+
+</div>
+
+
+
+
+</body>
+
+
+
+</html>
+
+<div class = "mainbod">
+
+<img src = "images/welcome_subtitle.jpg" border = 0><br>
+
+<!-- this is a comment - Use if H++ is broken
+   <BR>
+   <font color=red>
+   <b> DEC 10, 2013 - IMPORTANT NOTICE: <br>
+      H++ WILL BE DOWN FOR MAINTENANCE TODAY FROM 9:00 AM - NOON US EDT.
+      ANY JOBS RUNNING AT THE TIME WILL BE CANCELED.
+      SO, PLEASE WAIT UNTIL AFTER THAT TIME TO SUBMIT LARGE STRUCTURES.
+   </b>
+
+   <br><br>
+-->
+
+<h3> H++ is an automated system that computes pK values 
+of ionizable groups in macromolecules and adds missing hydrogen atoms 
+according to the specified pH of the environment.  
+Given a (PDB) structure file on input, H++ outputs the completed 
+structure in several common 
+formats (PDB, PQR, AMBER inpcrd/prmtop) and provides 
+a set of  tools for analysis of electrostatic-related molecular 
+properties. <a href = "whyhpp.php"> Why H++ </a> </h3> 
+
+
+<h3> <a href = "faq.php">  If this is your first time using H++, please 
+read the FAQ carefully. </a>  </h3> 
+
+<b> <a href = "hppdetails.php"> H++ in more detail. Citations </a> </b>   
+
+<br><br>
+
+<b>Please report problems to the H++ team: ramu&#64;vt.edu </b>
+
+<font color=blue>
+<p><b>NEWS:</b></p>
+
+<p style="color: red">4/3/2023 - DUE TO SECURITY ISSUES YOU MUST LOGIN TO USE H++</p>
+
+<b>8/2022</b> - 
+AMBER compatible output PDB structure includes CONECT records
+<br><br>
+
+<b>1/2022 - New release of H++ (Version 4.0), which includes the following upgrades:</b> 
+<ul>
+   <li>AmberTools 20</li>
+   <li>Newer force fields parameters (see below)</li>
+   <li>AMBER compatible output PDB (PQR) structure</li>
+   <li>OpenBabel v3.1.1 for ligands</li>
+   <li>CentOS 8 for improved server security</li>
+   <li>Intel Xeon E-2278G 8-core CPU for faster processing</li>
+</ul>
+
+<b>7/2019</b> -
+H++ can now process structures with phosphorylated side chains.
+See <a href = "faq.php#ions">FAQ</a>.
+
+<br><br> 
+
+<b>7/2019</b> -
+<a href = "faq.php#ions">FAQ</a> has been updated to indicate that
+the c-terminus can be capped with an amide cap (-NH2),
+in addition to N-methylamide (NME) capping.
+
+<br><br> 
+
+<b>11/2018</b> -
+Fixed error encountered when processing a structure containing 
+more than two CYS residues within 3A of each other.
+
+<br><br> 
+
+<b>11/2017</b> -
+Security and operating system upgrade to prevent unauthorized access to the H++ server
+
+<br><br> 
+
+<b>12/2016</b> -
+H++ can now calculate the pKs for proteins embedded in a membrane.
+See <a href = "faq.php#lipid">FAQ</a> for details. 
+
+<br><br> 
+
+<!---
+<b>7/2015</b> -
+Most common ions can now be retained for pK calculations 
+and will be included in the output topology/parameter and coordinate files.
+See <a href = "faq.php#ions">FAQ</a> for details. 
+
+<br><br> 
+
+<b>7/2015</b> -
+H++ now uses the latest version of AmberTools and Amber force field 
+parameters: AmberTools 15 using ff14SB force field parameters for proteins.
+with OL3 modifications for RNA, and OL1+OL4 modifications for DNA.
+See <a href = "faq.php#ff">FAQ</a> for details. 
+
+<br><br> 
+
+<b>7/2015</b> -
+Water model option for solvent box.
+When generating an explicit solvent box,
+you can now select between two types of water models:
+OPC, a highly accurate 4-point water model,
+and TIP3P, the traditional 3-point water model.
+See <a href=http://pubs.acs.org/doi/abs/10.1021/jz501780a>
+[Izadi et. al., 2015, J Phys Chem Lett, 5(21), 3863-3871]</a>  
+for additional information on OPC.
+
+<br><br> 
+
+<b>5/2013</b> -
+The accuracy table for H++ has been updated to reflect a correction
+to experimental data used for comparison.
+The RMS error in calculated pK relative to experimental values 
+is 1.0 pK units for a set of 23 protein structures with a total of
+201 titratable groups.
+Refer to this <a href = "HppAccuracy.php">link</a> for more details.
+
+<br><br> 
+
+<b>10/2012</b> -
+The default value of the internal dielectric has been changed to 10.0,
+which, on average, improves the accuracy of pK calculations; 
+please refer to this <a href = "HppAccuracy.php">link</a> for more details.
+
+<br><br> 
+
+<b>4/2012</b> - 
+You can cap protein termini using the procedure
+described <a href = "faq.php#cap">here</a> in the FAQ. <br>
+You can include specific buried water molecules using the procedure
+described <a href = "faq.php#HOH">here</a> in the FAQ. 
+
+<br><br>
+
+<b>2/2012</b> - 
+To improve efficiency, the titration curve is now only calculated in the 
+experimentally accessible pH range from 0 to 12. <br>
+H++ now uses the latest AMBER force fields (ff10)
+for adding missing atoms and pK calculations. 
+<br><br>
+
+<b>8/2011</b> 
+- New capability to build Amber explicit solvent topology and coordinate files,
+with ions 
+<br> <br>
+
+<b>5/2011</b> -  
+H++ now runs on a faster machine which increases the
+processing speed by a factor of 3, on average. <br>
+The less accurate GB option for electrostatic calculations has been removed. 
+<br> <br>
+
+
+<b>8/2010</b> - Automatically improve the input structure via 
+ <font color=black><b>Reduce</b></font> algorithm designed by the
+<a href = "http://kinemage.biochem.duke.edu"> Richardson lab</a>
+at Duke University. Selecting this option (now default) will 
+identify and fix erroneous conformations of ASN, GLN and HIS groups in the 
+input structure. It will also assign HIS protons
+to the delta or epsilon, based on a set of steric criteria. Without this 
+option, H++ will always use HIS-epsilon as the default 
+unprotonated form for HIS. 
+Click <a href = "faq.php#flip"> here </a> for details.
+<br> <br>
+--->
+
+<!--- 
+<b>3/2010</b> - New capability to include several explicit ions is available.
+Click <a href = "faq.php#ligand">  here </a> for instructions. 
+The H++ development team will always appreciate your feedback.
+<br>
+--->
+</font>
+<b>NOTE: Current AMBER force fields in use:</b> 
+ff19SB for protein, ff99bsc0+bsc1 for DNA, ff99bsc0_CaseP_Shaw for RNA, 
+lipid17 for lipids, ionsjc_tip4pew+ions234lm_126_tip4pew for ions)
+See <a href = "faq.php#ff">FAQ</a> for details. 
+<br><br>
+
+
+
+</div>
+
+

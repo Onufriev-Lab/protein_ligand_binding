@@ -1,0 +1,3 @@
+This directory scripts and output from them used to generate 8 A truncated structures from the gold-set.  The structures are solvated with explicitly with the OPC model and explict sodium and chloride ions added to 0.15 M.  The water shell of each truncated structure was compared to that of the untruncated structure in PyMOL, and the thickness iterated in tLeap until "thickness" was roughly equal in both structures.  All structures have at least three water layers in all dimensions, and more in most cases.
+
+The final .top and .crd files can be found pdb code named directories inside the divided-files directory.

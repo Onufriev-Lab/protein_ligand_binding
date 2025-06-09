@@ -47,6 +47,7 @@ const downloadFile = async (url, filename) => {
 
   const browser = await puppeteer.launch({
     headless: 'shell',
+    protocolTimeout: 0,
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
@@ -82,11 +83,29 @@ const downloadFile = async (url, filename) => {
 
   await input.uploadFile(wslFilePath);
 
-  await Promise.all([
-    page.click('input[type="submit"][value="Process File"]')
-  ]);
+await page.click('input[type="submit"][value="Process File"]');
 
-  await page.waitForSelector('input[type="image"][src="images/processthis.jpg"]', { timeout: 0 });
+console.log('Waiting for either validation form or early failure...');
+
+// Wait for either the phlevel field (success) or failure message (stop)
+const result = await Promise.race([
+  page.waitForSelector('input[name="phlevel"]', { timeout: 300000 }).then(() => 'phlevel'),
+  page.waitForFunction(
+    () => document.body && document.body.innerText.includes("THE CALCULATION HAS STOPPED"),
+    { timeout: 300000 }
+  ).then(() => 'calculation_stopped')
+]);
+
+
+if (result === 'calculation_stopped') {
+  console.error(`H++ halted before processing for ${pdbCode}. Reason: THE CALCULATION HAS STOPPED.`);
+  await browser.close();
+  process.exit(1);
+}
+
+console.log('Validation form loaded — continuing with processing...');
+
+
   await page.waitForSelector('input[name="phlevel"]', { timeout: 0 });
 
   await page.evaluate(() => {
@@ -107,9 +126,33 @@ const downloadFile = async (url, filename) => {
     page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 0 })
   ]);
 
-  await page.waitForSelector('a[href^="display_results.php"]', { timeout: 0 });
+try {
+  // Wait indefinitely for either the success or failure link to appear
+  const successSelector = 'a[href^="display_results.php"]';
+  const failureSelector = 'a[href*="debug.php"]';
 
-  await page.screenshot({ path: `${pdbCode}_before_view_results.png`, fullPage: true });
+  const foundSelector = await Promise.race([
+    page.waitForSelector(successSelector, { timeout: 0 }).then(() => successSelector),
+    page.waitForSelector(failureSelector, { timeout: 0 }).then(() => failureSelector)
+  ]);
+
+  if (foundSelector === successSelector) {
+    await Promise.all([
+      page.click(successSelector),
+      page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 0 })
+    ]);
+  } else if (foundSelector === failureSelector) {
+    console.error(`H++ processing failed for ${pdbCode}. "Files generated so far" link detected.`);
+    await browser.close();
+    process.exit(1);
+  }
+} catch (err) {
+  console.error(`Error waiting for result or failure link: ${err}`);
+  await browser.close();
+  process.exit(1);
+}
+
+await new Promise(resolve => setTimeout(resolve, 10000));
 
   await downloadFile(`http://newbiophysics.cs.vt.edu/H++/uploads/johann/0.15_80_10_pH7_${pdbCode}_LIGAND/0.15_80_10_pH7_${pdbCode}_LIGAND.top`, `${pdbCode}_LIGAND.top`);
   await downloadFile(`http://newbiophysics.cs.vt.edu/H++/uploads/johann/0.15_80_10_pH7_${pdbCode}_LIGAND/0.15_80_10_pH7_${pdbCode}_LIGAND.crd`, `${pdbCode}_LIGAND.crd`);

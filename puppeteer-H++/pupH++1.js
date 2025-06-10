@@ -14,14 +14,14 @@ const path = require('path');
     process.exit(1);
   }
 
-  const wslFilePath = `/home/johann/vt_ml/pdb txt and LIGAND files/${pdbCode}_LIGAND.pdb`;
+  const wslFilePath = `/home/johann/protein_ligand_binding/divide-charge-remark-dev/Remarked-files/${pdbCode}_LIGAND_remarked.pdb`;
 
   if (!fs.existsSync(wslFilePath)) {
     console.error(`File not found: ${wslFilePath}`);
     process.exit(1);
   }
 
-  const downloadPath = path.resolve(__dirname, 'downloads');
+  const downloadPath = path.resolve(__dirname, 'top-crd-files');
   fs.mkdirSync(downloadPath, { recursive: true });
 
   // Function to download a file using fetch and save locally
@@ -38,6 +38,7 @@ const downloadFile = async (url, filename) => {
   }
 
   const fileStream = fs.createWriteStream(path.join(downloadPath, filename));
+  console.log(fileStream);
   for await (const chunk of res.body) {
     fileStream.write(chunk);
   }
@@ -126,6 +127,8 @@ console.log('Validation form loaded — continuing with processing...');
     page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 0 })
   ]);
 
+  console.log('Process this pressed')
+
 try {
   // Wait indefinitely for either the success or failure link to appear
   const successSelector = 'a[href^="display_results.php"]';
@@ -139,6 +142,7 @@ try {
   if (foundSelector === successSelector) {
     await Promise.all([
       page.click(successSelector),
+      console.log('Success clicked'),
       page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 0 })
     ]);
   } else if (foundSelector === failureSelector) {
@@ -151,11 +155,13 @@ try {
   await browser.close();
   process.exit(1);
 }
-
+console.log('Before setTimeout');
 await new Promise(resolve => setTimeout(resolve, 10000));
+console.log('After setTimeout');
 
-  await downloadFile(`http://newbiophysics.cs.vt.edu/H++/uploads/johann/0.15_80_10_pH7_${pdbCode}_LIGAND/0.15_80_10_pH7_${pdbCode}_LIGAND.top`, `${pdbCode}_LIGAND.top`);
-  await downloadFile(`http://newbiophysics.cs.vt.edu/H++/uploads/johann/0.15_80_10_pH7_${pdbCode}_LIGAND/0.15_80_10_pH7_${pdbCode}_LIGAND.crd`, `${pdbCode}_LIGAND.crd`);
+  await downloadFile(`http://newbiophysics.cs.vt.edu/H++/uploads/johann/0.15_80_10_pH7.0_${pdbCode}_LIGAND_remarked/0.15_80_10_pH7.0_${pdbCode}_LIGAND_remarked.top`, `${pdbCode}.top`);
+  await downloadFile(`http://newbiophysics.cs.vt.edu/H++/uploads/johann/0.15_80_10_pH7.0_${pdbCode}_LIGAND_remarked/0.15_80_10_pH7.0_${pdbCode}_LIGAND_remarked.crd`, `${pdbCode}.crd`);
 
   await browser.close();
+  console.log('Just closed the browser');
 })();

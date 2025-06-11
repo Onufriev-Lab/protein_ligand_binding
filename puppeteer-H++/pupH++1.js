@@ -14,7 +14,7 @@ const path = require('path');
     process.exit(1);
   }
 
-  const wslFilePath = `/home/johann/protein_ligand_binding/divide-charge-remark-dev/Remarked-files/${pdbCode}_LIGAND_remarked.pdb`;
+  const wslFilePath = `../divide-charge-remark-dev/Remarked-files/${pdbCode}_LIGAND_remarked.pdb`;
 
   if (!fs.existsSync(wslFilePath)) {
     console.error(`File not found: ${wslFilePath}`);

@@ -1,0 +1,32 @@
+production complex
+&cntrl
+  imin=0,        ! MD on
+  irest=1,       ! restart (read velocities)
+  ntx=5,         ! read coordinates + velocities
+
+  nstlim=28571429,  ! total steps
+  dt=0.0035,     ! timestep (ps)
+
+  ntc=2,         ! SHAKE on bonds with H
+  ntf=2,         ! no force eval on those bonds
+
+  ig=-1,         ! random seed
+
+  ntt=3,         ! Langevin thermostat
+  gamma_ln=0.01,  ! collision freq (ps⁻¹)
+  temp0=300.0,   ! target temp (K)
+
+  ntpr=28571,      ! print to mdout every 286 steps
+  ntwx=28571,      ! write coordinates every 286 steps
+
+  ntb=0,         ! no periodic box
+  igb=8,         ! GB model
+  saltcon=0.145, ! 0.145 M salt
+
+  cut=999.0,     ! GB nonbonded cutoff
+  rgbmax=10.0,  ! GB screening cutoff
+
+  ntr=1,                             ! restraints on
+  restraintmask=':1-341@CA,N,C',
+  restraint_wt=2.0,                  ! same as explicit
+/

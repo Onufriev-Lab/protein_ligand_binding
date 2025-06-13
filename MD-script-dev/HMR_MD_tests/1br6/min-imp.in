@@ -1,0 +1,16 @@
+minimise complex
+&cntrl
+  imin=1,        ! do minimisation
+  maxcyc=1000,   ! total cycles
+  ncyc=500,      ! switch from steepest descent to conjugate‑gradient
+  cut=999.0,     ! nonbonded cutoff (large for GB)
+  rgbmax=10.0,  ! GB cutoff
+  igb=8,         ! GB model
+  ntb=0,         ! no periodic box
+  ntc=1,         ! no SHAKE (all bonds flexible)
+  ntf=1,         ! force evaluation without SHAKE
+  ntpr=100,      ! print energy every 100 steps
+  ntr=1,         ! positional restraints on
+  restraintmask='(:1-268@CA,N,C|:269)',  ! same mask as explicit
+  restraint_wt=10.0,                        ! same force constant
+/

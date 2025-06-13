@@ -10,7 +10,7 @@ import pandas as pd
 # Input templates
 # -----------------------
 input_files = {
-    'min.in': """minimise complex
+    'min-imp.in': """minimise complex
 &cntrl
   imin=1,        ! do minimisation
   maxcyc=1000,   ! total cycles
@@ -27,41 +27,8 @@ input_files = {
   restraint_wt=10.0,                        ! same force constant
 /
 """,
-    'heat.in': """heat complex
+    'heat-imp.in': """heat complex
 &cntrl
-  imin=0,        ! MD heating
-  irest=0,       ! start from scratch
-  ntx=1,         ! coordinates only, no velocities
-  nstlim=14286,  ! total steps (≈50 ps @3.5 fs)
-  dt=0.0035,     ! timestep (ps)
-  
-  ntc=2,         ! SHAKE on bonds involving H
-  ntf=2,         ! no forces on bonds with SHAKE
-  
-  ig=-1,         ! random seed
-  ntt=1,         ! Berendsen thermostat
-  tautp=1.0,     ! coupling time (ps)
-  tempi=0.0,     ! start temp (K)
-  temp0=300.0,   ! target temp (K)
-  
-  ntpr=286,      ! print to mdout every 286 steps
-  ntwx=286,      ! write coords every 286 steps
-  
-  ntb=0,         ! no periodic box
-  igb=8,         ! GB model
-  saltcon=0.145, ! 0.145 M salt
-  
-  cut=999.0,     ! nonbonded cutoff for GB
-  rgbmax=10.0,  ! GB screening cutoff
-  
-  ntr=1,         ! positional restraints on
-  restraintmask='(:1-78@CA,N,C|:79)',
-  restraint_wt=2.0,
-  
-  nmropt=1,      ! enable NMR-style &wt blocks
-/
-&wt TYPE='TEMP0', istep1=0,  istep2=14286,  value1=0.1,  value2=300.0 /
-&wt TYPE='END'                         /&cntrl
   imin=0,        ! MD heating
   irest=0,       ! start from scratch
   ntx=1,         ! coordinates only, no velocities
@@ -96,7 +63,7 @@ input_files = {
 &wt TYPE='TEMP0', istep1=0,  istep2=14286,  value1=0.1,  value2=300.0 /
 &wt TYPE='END'                         /
 """,
-    'density.in': """equilibrate complex
+    'density-imp.in': """equilibrate complex
 &cntrl
   imin=0,        ! MD on
   irest=1,       ! restart (read velocities)

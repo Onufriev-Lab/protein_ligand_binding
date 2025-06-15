@@ -224,8 +224,8 @@ def main():
         sys.exit(1)
 
     for pdb_id in pdb_codes:
-        top_pattern = os.path.join(input_dir, f"*pH7_{pdb_id}.top")
-        crd_pattern = os.path.join(input_dir, f"*pH7_{pdb_id}.crd")
+        top_pattern = os.path.join(input_dir, f"{pdb_id}.top")
+        crd_pattern = os.path.join(input_dir, f"{pdb_id}.crd")
         top_files = glob.glob(top_pattern)
         crd_files = glob.glob(crd_pattern)
 

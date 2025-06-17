@@ -11,3 +11,6 @@ Usage:  python one_csv_to_rule_them_all.py directory_containing_top_crd_files
 
 make_csvs.py is a python script that collects unique .top/.crd filenames (without the extension) and divides them evenly between .csv file in a column named "PDB codes".  THe number of .csv files is specified in the input.  The output files are named group_n.csv where n starts counting at 0 to easily match GPU ids.
 Usage:  python make_csvs.py directory_containing_top_crd_files integer_number_of_csv_files
+
+fix_mislabeled_AA is a python script that renames amino acids that have been named ACE or NME by the truncation script.  It does not change ACE and NME on the ends of peptides.
+Usage:  python fix_mislabeled_AA.py trunc_pdb_file

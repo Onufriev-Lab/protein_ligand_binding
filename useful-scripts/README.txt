@@ -14,3 +14,9 @@ Usage:  python make_csvs.py directory_containing_top_crd_files integer_number_of
 
 fix_mislabeled_AA is a python script that renames amino acids that have been named ACE or NME by the truncation script.  It does not change ACE and NME on the ends of peptides.
 Usage:  python fix_mislabeled_AA.py trunc_pdb_file
+
+HMR_MD_in_files.py is a python script that creates directories, one for each pdb code, containing input files for MD and runs parmed to add mass to hydrogens in the .top file.  It also creates *hmr.top and copies .crd files to their respective directories.  As input, it takes pdb codes from a column named "PDB codes" in a .csv file, and .top and .crd files from a specified directory.
+Usage: python HMR_MD_in_files.py directory_with_top_and_crd_files csv_with_pdb_codes
+
+make_and_run_bash.py is a python script that creates a bash script to run MD for a given complex.  It creates that bash script in a directory named after the associated pdb code that has been previously created (by a script like HMR_MD_in_files.py).  It then runs the bash script.  It uses a list of pdb codes from a .csv file to create and run scripts along with a GPU_id.  Also copies *hmr.top to *.top.
+Usage:  python make_and_run_bash.py directory_containing_pdb_directories csv_file GPU_id

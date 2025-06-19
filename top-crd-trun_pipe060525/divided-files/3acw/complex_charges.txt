@@ -1,0 +1,23 @@
+Charged residues:
+HIE 5  Charge: 0
+LYS 7  Charge: 1
+ARG 27  Charge: 1
+ASP 30  Charge: -1
+GLU 46  Charge: -1
+ASP 58  Charge: -1
+ARG 61  Charge: 1
+ARG 62  Charge: 1
+GLU 65  Charge: -1
+ARG 74  Charge: 1
+ASP 75  Charge: -1
+LYS 83  Charge: 1
+GLU 93  Charge: -1
+ARG 105  Charge: 1
+
+Ligand charge from charge.txt: 1.0
+Total protein charge: 1
+Total complex charge: 2.0
+Number of water molecules from 3acw.top: 4067
+No (waters × 0.15 / 56): 10.8937
+Chloride ions (Cl-): 11.94
+Sodium ions (Na+): 9.94

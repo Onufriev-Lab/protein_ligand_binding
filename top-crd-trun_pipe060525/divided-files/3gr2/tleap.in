@@ -6,6 +6,8 @@ PROT = loadpdb ./divided-files/3gr2/PROTEIN.pdb
 COMPLEX = combine {PROT LIG}
 source leaprc.water.opc
 solvateOct COMPLEX OPCBOX 12
+addions COMPLEX Na+ 11
+addions COMPLEX Cl- 12
 saveamberparm COMPLEX ./divided-files/3gr2/3gr2.top ./divided-files/3gr2/3gr2.crd
-savepdb COMPLEX ./divided-files/3gr2/3gr2t.pdb
+savepdb COMPLEX ./divided-files/3gr2/3gr2ti.pdb
 quit

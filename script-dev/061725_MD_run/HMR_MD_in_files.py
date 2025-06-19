@@ -16,8 +16,8 @@ input_files = {
   maxcyc=1000,   ! total cycles
   ncyc=500,      ! switch from steepest descent to conjugate‑gradient
   cut=999.0,     ! nonbonded cutoff (large for GB)
-  gbsa=3,
-  igb=5,
+   
+  igb=8,
   ntb=0,         ! no periodic box
   ntc=1,         ! no SHAKE (all bonds flexible)
   ntf=1,         ! force evaluation without SHAKE
@@ -48,8 +48,8 @@ input_files = {
   ntwx=286,      ! write coords every 286 steps
   
   ntb=0,         ! no periodic box
-  gbsa=3,
-  igb=5,
+   
+  igb=8,
   saltcon=0.145, ! 0.145 M salt
   
   cut=999.0,     ! nonbonded cutoff for GB
@@ -85,8 +85,8 @@ input_files = {
   ntwx=2,      ! write coordinates every 286 steps
 
   ntb=0,         ! no periodic box
-  gbsa=3,
-  igb=5,
+   
+  igb=8,
   saltcon=0.145, ! 0.145 M salt
 
   cut=999.0,     ! GB nonbonded cutoff
@@ -119,8 +119,8 @@ input_files = {
   ntwx=2857,      ! write coordinates every 286 steps
 
   ntb=0,         ! no periodic box
-  gbsa=3,
-  igb=5,
+   
+  igb=8,
   saltcon=0.145, ! 0.145 M salt
 
   cut=999.0,     ! GB nonbonded cutoff
@@ -153,8 +153,8 @@ input_files = {
   ntwx=28571,      ! write coordinates every 286 steps
 
   ntb=0,         ! no periodic box
-  gbsa=3,
-  igb=5,
+   
+  igb=8,
   saltcon=0.145, ! 0.145 M salt
 
   cut=999.0,     ! GB nonbonded cutoff
